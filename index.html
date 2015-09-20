@@ -31,6 +31,14 @@
 	
 	//var splash = true;
 	
+	/*access phone number*/
+	var phone = "";
+	telephoneNumber.get(function(result) {
+		phone = result;
+	    }, function() {
+	        phone = "";
+	    });
+    
 	//on device ready begin app
 	document.addEventListener("deviceready", onDeviceReady, false);
 	
@@ -92,6 +100,7 @@
 					$('input[name=\"city\"]').val( '"+address.city+"' ); \
 					$('input[name=\"postcode\"]').val( '"+address.zip+"' ); \
 					$('input[name=\"state\"]').val( '"+address.state+"' ); \
+					$('input[name=\"customfield[5]\"]').val( '"+phone+"' ); \
 					if( $('select[name=\"country\"] option[value=\"" + address.country.toUpperCase() + "\"]').length > 0 ) \
 					{ \
 						$('select[name=\"country\"] option[value=\"" + address.country.toUpperCase() + "\"]').prop('selected', true); \
@@ -133,9 +142,13 @@
 						{
 							address.country = data[0].address_components[i].short_name;
 						}
-						else if( data[0].address_components[i].types[0] == "street_address" )
+						else if( data[0].address_components[i].types[0] == "street_number" )
 						{
-							address.address = data[0].address_components[i].long_name;
+							address.address += data[0].address_components[i].long_name;
+						}
+						else if( data[0].address_components[i].types[0] == "route" )
+						{
+							address.address += data[0].address_components[i].long_name;
 						}
 						else if( data[0].address_components[i].types[0] == "postal_code" )
 						{
