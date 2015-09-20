@@ -85,32 +85,32 @@
 		into the site in order to manipulate the dom which does not reside in the app
 		*/
 		
-		if( event.url.match("^https?:\/\/(www\.)?pixelsoft\.com\.sa\/online-services\/register") )
-		{
+		//if( event.url.match("^https?:\/\/(www\.)?pixelsoft\.com\.sa\/online-services\/register") )
+		//{
 				browser.executeScript({ code: " \
-					$('input[name=\"address1\"]').val( "+address.address+" ); \
-					$('input[name=\"city\"]').val( "+address.city+" ); \
-					$('input[name=\"postcode\"]').val( "+address.zip+" ); \
-					$('input[name=\"state\"]').val( "+address.state+" ); \
+					$('input[name=\"address1\"]').val( '"+address.address+"' ); \
+					$('input[name=\"city\"]').val( '"+address.city+"' ); \
+					$('input[name=\"postcode\"]').val( '"+address.zip+"' ); \
+					$('input[name=\"state\"]').val( '"+address.state+"' ); \
 					if( $('select[name=\"country\"] option[value=\"" + address.country.toUpperCase() + "\"]').length > 0 ) \
 					{ \
 						$('select[name=\"country\"] option[value=\"" + address.country.toUpperCase() + "\"]').prop('selected', true); \
 					} \
 				" });
-		}
-		else if( event.url.match("^https?:\/\/(www\.)?pixelsoft\.com\.sa\/online-services\/cart\/\?a=checkout") )
-		{
-				browser.executeScript({ code: " \
-					$('input[name=\"address1\"]').val( "+address.address+" ); \
-					$('input[name=\"city\"]').val( "+address.city+" ); \
-					$('input[name=\"postcode\"]').val( "+address.zip+" ); \
-					$('input[name=\"state\"]').val( "+address.state+" ); \
-					if( $('select[name=\"country\"] option[value=\"" + address.country.toUpperCase() + "\"]').length > 0 ) \
-					{ \
-						$('select[name=\"country\"] option[value=\"" + address.country.toUpperCase() + "\"]').prop('selected', true); \
-					} \
-				" });
-		}       
+		//}
+		//else if( event.url.match("^https?:\/\/(www\.)?pixelsoft\.com\.sa\/online-services\/cart\/\?a=checkout") )
+		//{
+		//		browser.executeScript({ code: " \
+		//			$('input[name=\"address1\"]').val( "+address.address+" ); \
+		//			$('input[name=\"city\"]').val( "+address.city+" ); \
+		//			$('input[name=\"postcode\"]').val( "+address.zip+" ); \
+		//			$('input[name=\"state\"]').val( "+address.state+" ); \
+		//			if( $('select[name=\"country\"] option[value=\"" + address.country.toUpperCase() + "\"]').length > 0 ) \
+		//			{ \
+		//				$('select[name=\"country\"] option[value=\"" + address.country.toUpperCase() + "\"]').prop('selected', true); \
+		//			} \
+		//		" });
+		//}       
          });
 
          //browser.addEventListener('exit', function(event) {
