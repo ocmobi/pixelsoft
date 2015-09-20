@@ -51,9 +51,7 @@
 	//}, 5000 );
 	
 	/*begin async geolocation lookup*/
-	alert('HERE 0');
 	navigator.geolocation.getCurrentPosition(onSuccessGeolocation, onErrorGeolocation);
-	alert('HERE1');
 	
 	 /*push notification object*/
 	 //push = window.plugins.pushNotification;
@@ -127,12 +125,9 @@
 
 	// onSuccess Geolocation
 	function onSuccessGeolocation(position) {
-		alert('HERE 2');
 		var geocoder = new google.maps.Geocoder();
 		geocoder.geocode({'latLng': new google.maps.LatLng(position.coords.latitude, position.coords.longitude)},
 			function(data,status){
-				alert('HERE 3');
-				/*
 				if(status == google.maps.GeocoderStatus.OK)
 				{
 					var addy = data[1].formatted_address;
@@ -167,14 +162,12 @@
 						'Ok'
 					);					
 				}
-				*/
 			}
 		);
 	}
 
 	function onErrorGeolocation(error)
 	{
-		alert('HERE 4');
 		navigator.notification.alert(
 			error.code + ' - ' + error.message,
 			null,
