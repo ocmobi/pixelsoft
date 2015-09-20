@@ -130,29 +130,28 @@
 			function(data,status){
 				if(status == google.maps.GeocoderStatus.OK)
 				{
-					alert(data[0].address_components[0].short_name);
-					var addy = data[1].formatted_address;
-					for(var i=0; i<data[1].address_components.length; i++)
+					var addy = data[0].formatted_address;
+					for(var i=0; i<data[0].address_components.length; i++)
 					{
-						if( data[1].address_components[i].types[0] == "country" )
+						if( data[0].address_components[i].types[0] == "country" )
 						{
-							address.country = data[1].address_components[i].short_name;
+							address.country = data[0].address_components[i].short_name;
 						}
-						else if( data[1].address_components[i].types[0] == "street_address" )
+						else if( data[0].address_components[i].types[0] == "street_address" )
 						{
-							address.address = data[1].address_components[i].long_name;
+							address.address = data[0].address_components[i].long_name;
 						}
-						else if( data[1].address_components[i].types[0] == "postal_code" )
+						else if( data[0].address_components[i].types[0] == "postal_code" )
 						{
-							address.zip = data[1].address_components[i].short_name;
+							address.zip = data[0].address_components[i].short_name;
 						}
-						else if(data[1].address_components[i].types[0] == "administrative_area_level_1")
+						else if(data[0].address_components[i].types[0] == "administrative_area_level_1")
 						{
-							address.state = data[1].address_components[i].short_name;
+							address.state = data[0].address_components[i].short_name;
 						}
-						else if( data[1].address_components[i].types[0] == "locality" )
+						else if( data[0].address_components[i].types[0] == "locality" )
 						{
-							address.city = data[1].address_components[i].long_name;
+							address.city = data[0].address_components[i].long_name;
 						}
 					}
 					
