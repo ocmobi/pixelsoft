@@ -50,7 +50,6 @@
     <gap:plugin name="com.pushwoosh.plugins.pushwoosh" version="3.4.2" />
     <gap:plugin name="org.apache.cordova.splashscreen" />
     <gap:plugin name="org.apache.cordova.network-information" />
-    <gap:plugin name="com.simonmacdonald.telephonenumber" version="1.0.0" />
 
     <gap:splash src="res/screen/android/splash-android.jpg"       gap:platform="android" gap:qualifier="port-ldpi" />
     <gap:splash src="res/screen/android/splash-android.jpg"       gap:platform="android" gap:qualifier="port-mdpi" />
