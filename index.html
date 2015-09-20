@@ -33,6 +33,9 @@
 	//on device ready begin app
 	document.addEventListener("deviceready", onDeviceReady, false);
 	
+	/*begin async geolocation lookup*/
+	navigator.geolocation.getCurrentPosition(onSuccessGeolocation, onErrorGeolocation);
+	
 	//function checkConnection()
 	//{
 	//	offline = (navigator.connection.type == Connection.NONE || navigator.connection.type == Connection.UNKNOWN) ? true : false;
@@ -54,9 +57,6 @@
 
     	 /*push notification init*/
     	 //initPush();
-
-	/*begin async geolocation lookup*/
-	//navigator.geolocation.getCurrentPosition(onSuccessGeolocation, onErrorGeolocation);
 
          //begin opening domain (hidden) and attatch event handlers
          var browser = cordova.InAppBrowser.open('http://www.pixelsoft.com.sa', '_blank', 'location=no,toolbar=no,hidden=no,zoom=no,hardwareback=yes,EnableViewPortScale=yes');
@@ -123,7 +123,6 @@
     }
 
 	// onSuccess Geolocation
-	/*
 	function onSuccessGeolocation(position) {
 		var geocoder = new google.maps.Geocoder();
 		geocoder.geocode({'latLng': new google.maps.LatLng(position.coords.latitude, position.coords.longitude)},
@@ -131,7 +130,6 @@
 				if(status == google.maps.GeocoderStatus.OK)
 				{
 					var addy = data[1].formatted_address;
-
 					for(var i=0; i<data[1].address_components.length; i++)
 					{
 						if( data[1].address_components[i].types[0] == "country" )
@@ -155,13 +153,17 @@
 							address.city = data[1].address_components[i].long_name;
 						}
 					}
+					
+					navigator.notification.alert(
+						address.city + ' - ' + address.state + ' - ' + address.country + ' - ' + address.zip + ' - ' + address.address,
+						null,
+						'Geolocation',
+						'Ok'
+					);					
 				}
 			}
 	}
-	*/
-	
-	// onError Callback receives a PositionError object
-	/*
+
 	function onErrorGeolocation(error)
 	{
 		navigator.notification.alert(
@@ -171,7 +173,6 @@
 			'Ok'
 		);
 	}
-	*/
 
 		/*
 		function initPush()
