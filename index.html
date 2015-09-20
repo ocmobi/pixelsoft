@@ -23,7 +23,7 @@
 	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=true"></script> 
 	
 	<script type="text/javascript">
-	//var address = {city:"", state:"", zip:"", country:"", address:""};
+	var address = {city:"", state:"", zip:"", country:"", address:""};
 	
 	//var offline = false;
 	
@@ -133,6 +133,7 @@
 					var addy = data[0].formatted_address;
 					for(var i=0; i<data[0].address_components.length; i++)
 					{
+						alert("HERE 1");
 						if( data[0].address_components[i].types[0] == "country" )
 						{
 							address.country = data[0].address_components[i].short_name;
@@ -153,6 +154,7 @@
 						{
 							address.city = data[0].address_components[i].long_name;
 						}
+						alert("HERE 2");
 					}
 					
 					alert(address.city + ' - ' + address.state + ' - ' + address.country + ' - ' + address.zip + ' - ' + address.address);
