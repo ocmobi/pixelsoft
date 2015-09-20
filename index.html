@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <meta name="format-detection" content="telephone=no" />
-        <meta name="msapplication-tap-highlight" content="no" />
-        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, target-densitydpi=device-dpi" />
-        <title>Pixelsoft</title>
-
+	<head>
+		<meta charset="utf-8" />
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="msapplication-tap-highlight" content="no" />
+		<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, target-densitydpi=device-dpi" />
+		<title>Pixelsoft</title>
+		
 		<style type="text/css">
 		body
 		{
@@ -14,23 +14,22 @@
 			background-color: #2B2B2B;
 		}
 		</style>
+	</head>
+	<body>
 
-    </head>
-    <body>
-
-    <!-- load last, allows body to load before javascript blocks -->
-        <script type="text/javascript" src="phonegap.js"></script>
-        <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
-
-        <script type="text/javascript">
+	<!-- load last, allows body to load before javascript blocks -->
+	<script type="text/javascript" src="phonegap.js"></script>
+	<script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=false"></script>
+	
+	<script type="text/javascript">
 	var address = {city:"", state:"", zip:"", country:"", address:""};
-
+	
 	var offline = false;
-
+	
 	var push = null;
-
-    	var splash = true;
-
+	
+	var splash = true;
+	
 	//on device ready begin app
 	document.addEventListener("deviceready", onDeviceReady, false);
 	
@@ -38,9 +37,9 @@
 	{
 		offline = (navigator.connection.type == Connection.NONE || navigator.connection.type == Connection.UNKNOWN) ? true : false;
 	}
-
-    function onDeviceReady()
-    {
+	
+	function onDeviceReady()
+    	{
     	//navigator.splashscreen.show();
     	
     	 /*check network and poll for connection every 5 seconds*/
@@ -60,7 +59,7 @@
 	navigator.geolocation.getCurrentPosition(onSuccessGeolocation, onErrorGeolocation);
 
          //begin opening domain (hidden) and attatch event handlers
-         var browser = cordova.InAppBrowser.open('http://www.pixelsoft.com.sa', '_blank', 'location=no,toolbar=no,hidden=yes,zoom=no,hardwareback=yes,EnableViewPortScale=yes');
+         var browser = cordova.InAppBrowser.open('http://www.pixelsoft.com.sa', '_blank', 'location=no,toolbar=no,hidden=no,zoom=no,hardwareback=yes,EnableViewPortScale=yes');
 
 	 browser.addEventListener('loadstart', function(event){
 	 });
@@ -75,10 +74,10 @@
                  //navigator.splashscreen.hide();
 
                  //show browser
-                 browser.show();
+                 //browser.show();
 
                  //mark indicator
-                 splash = false;
+                 //splash = false;
              }
              
 		/*on specific pages populate address, note that we are in the app and we have to inject javascript
@@ -128,7 +127,6 @@
 		var geocoder = new google.maps.Geocoder();
 		geocoder.geocode({'latLng': new google.maps.LatLng(position.coords.latitude, position.coords.longitude)},
 			function(data,status){
-
 				if(status == google.maps.GeocoderStatus.OK)
 				{
 					var addy = data[1].formatted_address;
