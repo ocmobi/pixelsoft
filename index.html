@@ -63,19 +63,22 @@
          //once load has completed, stop splash and show browser
          browser.addEventListener('loadstop', function(event)
          {
-		//one time only on init
-		if( splash == true )
-		{
-		 //hide splash
-		 navigator.splashscreen.hide();
-		
-		 //show browser
-		 browser.show();
-		
-		 //mark indicator
-		 splash = false;
-		}
-             
+         	/*manually hide splash later, gives us full load appearance*/
+         	setTimeout( function(){
+			//one time only on init
+			if( splash == true )
+			{
+			   //show browser
+			   browser.show();
+			
+			   //hide splash
+			   navigator.splashscreen.hide();
+			
+			   //mark indicator
+			   splash = false;
+			}         		
+         	}, 5000);
+
 		/*on specific pages populate address, note that we are in the app and we have to inject javascript
 		into the site in order to manipulate the dom which does not reside in the app
 		*/
