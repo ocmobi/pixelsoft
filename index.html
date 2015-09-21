@@ -29,8 +29,9 @@
 	
 	//var push = null;
 	
-	//var splash = true;
-	
+	var splash = true;
+	navigator.splashscreen.show();
+
 	//on device ready begin app
 	document.addEventListener("deviceready", onDeviceReady, false);
 	
@@ -41,7 +42,6 @@
 	
 	function onDeviceReady()
     	{
-    	//navigator.splashscreen.show();
     	
     	 /*check network and poll for connection every 5 seconds*/
 	 //checkNetwork();
@@ -60,63 +60,46 @@
     	 //initPush();
 
          //begin opening domain (hidden) and attatch event handlers
-         var browser = cordova.InAppBrowser.open('http://www.pixelsoft.com.sa', '_blank', 'location=no,toolbar=no,hidden=no,zoom=no,hardwareback=yes,EnableViewPortScale=yes');
+         var browser = cordova.InAppBrowser.open('http://www.pixelsoft.com.sa', '_blank', 'location=no,toolbar=no,hidden=yes,zoom=no,hardwareback=yes,EnableViewPortScale=yes');
 
-	 //browser.addEventListener('loadstart', function(event){
-	 //});
+	 browser.addEventListener('loadstart', function(event){
+	 });
 	 
          //once load has completed, stop splash and show browser
          browser.addEventListener('loadstop', function(event)
          {
-             //one time only on init
-             //if( splash == true )
-             //{
-                 //hide splash
-                 //navigator.splashscreen.hide();
-
-                 //show browser
-                 //browser.show();
-
-                 //mark indicator
-                 //splash = false;
-             //}
+		//one time only on init
+		if( splash == true )
+		{
+		 //hide splash
+		 navigator.splashscreen.hide();
+		
+		 //show browser
+		 browser.show();
+		
+		 //mark indicator
+		 splash = false;
+		}
              
 		/*on specific pages populate address, note that we are in the app and we have to inject javascript
 		into the site in order to manipulate the dom which does not reside in the app
 		*/
-		
-		//if( event.url.match("^https?:\/\/(www\.)?pixelsoft\.com\.sa\/online-services\/register") )
-		//{
-				browser.executeScript({ code: " \
-					$('input[name=\"address1\"]').val( '"+address.address+"' ); \
-					$('input[name=\"city\"]').val( '"+address.city+"' ); \
-					$('input[name=\"postcode\"]').val( '"+address.zip+"' ); \
-					$('input[name=\"state\"]').val( '"+address.state+"' ); \
-					if( $('select[name=\"country\"] option[value=\"" + address.country.toUpperCase() + "\"]').length > 0 ) \
-					{ \
-						$('select[name=\"country\"] option[value=\"" + address.country.toUpperCase() + "\"]').prop('selected', true); \
-					} \
-				" });
-		//}
-		//else if( event.url.match("^https?:\/\/(www\.)?pixelsoft\.com\.sa\/online-services\/cart\/\?a=checkout") )
-		//{
-		//		browser.executeScript({ code: " \
-		//			$('input[name=\"address1\"]').val( "+address.address+" ); \
-		//			$('input[name=\"city\"]').val( "+address.city+" ); \
-		//			$('input[name=\"postcode\"]').val( "+address.zip+" ); \
-		//			$('input[name=\"state\"]').val( "+address.state+" ); \
-		//			if( $('select[name=\"country\"] option[value=\"" + address.country.toUpperCase() + "\"]').length > 0 ) \
-		//			{ \
-		//				$('select[name=\"country\"] option[value=\"" + address.country.toUpperCase() + "\"]').prop('selected', true); \
-		//			} \
-		//		" });
-		//}       
+		browser.executeScript({ code: " \
+			$('input[name=\"address1\"]').val( '"+address.address+"' ); \
+			$('input[name=\"city\"]').val( '"+address.city+"' ); \
+			$('input[name=\"postcode\"]').val( '"+address.zip+"' ); \
+			$('input[name=\"state\"]').val( '"+address.state+"' ); \
+			if( $('select[name=\"country\"] option[value=\"" + address.country.toUpperCase() + "\"]').length > 0 ) \
+			{ \
+				$('select[name=\"country\"] option[value=\"" + address.country.toUpperCase() + "\"]').prop('selected', true); \
+			} \
+		" });
          });
 
-         //browser.addEventListener('exit', function(event) {
-         //	 /*quit the app*/
-         //    //navigator.app.exitApp();
-         //});
+         browser.addEventListener('exit', function(event) {
+         	/*quit the app*/
+             	navigator.app.exitApp();
+         });
     }
 
 	// onSuccess Geolocation
