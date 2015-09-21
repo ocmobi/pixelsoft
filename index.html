@@ -26,8 +26,8 @@
 	
 	//var push = null;
 	
-	var splash = true;
-	navigator.splashscreen.show();
+	//var splash = true;
+	//navigator.splashscreen.show();
 
 	//on device ready begin app
 	document.addEventListener("deviceready", onDeviceReady, false);
@@ -69,17 +69,17 @@
 	 	browser.show();
 			   
          	/*manually hide splash later, gives us full load appearance*/
-         	setTimeout( function(){
-			//one time only on init
-			if( splash == true )
-			{
-			   //hide splash
-			   //navigator.splashscreen.hide();
-			
-			   //mark indicator
-			   splash = false;
-			}         		
-         	}, 5000);
+         	//setTimeout( function(){
+		//	//one time only on init
+		//	if( splash == true )
+		//	{
+		//	   //hide splash
+		//	   //navigator.splashscreen.hide();
+		//	
+		//	   //mark indicator
+		//	   splash = false;
+		//	}         		
+         	//}, 5000);
 
 		/*on specific pages populate address, note that we are in the app and we have to inject javascript
 		into the site in order to manipulate the dom which does not reside in the app
