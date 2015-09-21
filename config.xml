@@ -48,7 +48,7 @@
     <gap:plugin name="org.apache.cordova.geolocation" />
     <gap:plugin name="org.apache.cordova.globalization" />
     <gap:plugin name="com.pushwoosh.plugins.pushwoosh" version="3.4.2" />
-    <gap:plugin name="org.apache.cordova.splashscreen" />
+    <!--<gap:plugin name="org.apache.cordova.splashscreen" />-->
     <gap:plugin name="org.apache.cordova.network-information" />
 
     <gap:splash src="-android.png"       gap:platform="android" gap:qualifier="port-ldpi" />
