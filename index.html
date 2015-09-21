@@ -63,16 +63,16 @@
          //once load has completed, stop splash and show browser
          browser.addEventListener('loadstop', function(event)
          {
+         	//show browser
+	 	browser.show();
+			   
          	/*manually hide splash later, gives us full load appearance*/
          	setTimeout( function(){
 			//one time only on init
 			if( splash == true )
 			{
-			   //show browser
-			   browser.show();
-			
 			   //hide splash
-			   navigator.splashscreen.hide();
+			   //navigator.splashscreen.hide();
 			
 			   //mark indicator
 			   splash = false;
