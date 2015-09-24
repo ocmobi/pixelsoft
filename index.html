@@ -34,6 +34,13 @@
 	
 	window.open("offline/pixelshop_com/index.html",'_self');
 	
+	/*make links relative to offline version*/
+	$(document).ready(function(){
+		$('a').each( function(){
+			$(this).attr('href', $(this).attr('href').replace(/^https?:\/\//,''));	
+		});
+	});
+	
 	//var push = null;
 
 	//on device ready begin app
