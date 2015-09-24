@@ -111,7 +111,7 @@
 		into the site in order to manipulate the dom which does not reside in the app
 		*/
 		browser.executeScript({ code: " \
-			$('input[name=\"address1\"]').val( '"+address.address+"' ); \
+			$('input[name=\"address_1\"]').val( '"+address.address+"' ); \
 			$('input[name=\"city\"]').val( '"+address.city+"' ); \
 			$('input[name=\"postcode\"]').val( '"+address.zip+"' ); \
 			$('input[name=\"state\"]').val( '"+address.state+"' ); \
