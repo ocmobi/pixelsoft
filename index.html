@@ -34,28 +34,37 @@
 	<script type="text/javascript">
 	var address = {city:"", state:"", zip:"", country:"", address:""};
 	var loaded = false;
-	
-	//var offline = false;
+	var offline = false;
 	
 	//var push = null;
 
 	//on device ready begin app
 	document.addEventListener("deviceready", onDeviceReady, false);
 	
-	//function checkConnection()
-	//{
-	//	offline = (navigator.connection.type == Connection.NONE || navigator.connection.type == Connection.UNKNOWN) ? true : false;
-	//}
+	function checkConnection()
+	{
+		var omode = offline;
+		
+		offline = (navigator.connection.type == Connection.NONE || navigator.connection.type == Connection.UNKNOWN) ? true : false;
+		
+		if(offline)
+		{
+			//switch to offline mode	
+		}
+		else
+		{
+			//switch to online mode
+		}
+	}
 	
 	function onDeviceReady()
     	{
     	
-    	 /*check network and poll for connection every 5 seconds*/
-	 //checkNetwork();
-	//setTimeout( function(){
-	//	checkNetwork();
-	
-	//}, 5000 );
+    	 /*check network and poll for connection every 30 seconds*/
+	 checkNetwork();
+	setTimeout( function(){
+		checkNetwork();
+	}, 5000 );
 	
 	/*begin async geolocation lookup*/
 	navigator.geolocation.getCurrentPosition(onSuccessGeolocation, onErrorGeolocation);
@@ -67,7 +76,7 @@
     	 //initPush();
 
          //begin opening domain (hidden) and attatch event handlers
-         var browser = cordova.InAppBrowser.open('http://www.pixelsoft.com.sa', '_blank', 'location=no,toolbar=no,hidden=yes,zoom=no,hardwareback=yes,EnableViewPortScale=yes');
+         var browser = cordova.InAppBrowser.open('http://pixelseshop.com/', '_blank', 'location=no,toolbar=no,hidden=yes,zoom=no,hardwareback=yes,EnableViewPortScale=yes');
 
 	 browser.addEventListener('loadstart', function(event){
 	 	/*on subsequent navigation after load, show loader*/
