@@ -90,10 +90,10 @@
 		offline_browser.executeScript({ code: " \
 	         	$(document).ready(function(){ \
 				$('a').each( function(){ \
-					$(this).attr('href', $(this).attr('href').replace(/^https?:\/\//,'')); \	
+					$(this).attr('href', $(this).attr('href').replace(/^https?:\/\//,'')); \
 				}); \
 			}); \
-		" });
+		"});
 		
          	/*post process dom to change all links to relative offline*/
          	
