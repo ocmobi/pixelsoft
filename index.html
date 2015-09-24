@@ -32,15 +32,6 @@
 	var online_browser = null;
 	var offline_browser = null;
 	
-	//window.open("offline/pixelshop_com/index.html",'_self');
-	
-	/*make links relative to offline version*/
-	//$(document).ready(function(){
-	//	$('a').each( function(){
-	//		$(this).attr('href', $(this).attr('href').replace(/^https?:\/\//,''));	
-	//	});
-	//});
-	
 	//var push = null;
 
 	//on device ready begin app
@@ -94,8 +85,18 @@
          offline_browser = cordova.InAppBrowser.open('offline/pixelshop_com/index.html', '_blank', 'location=no,toolbar=no,hidden=no,zoom=no,hardwareback=yes,EnableViewPortScale=yes');
 	 offline_browser.show();
          //once load has completed, stop splash and show browser
-         //offline_browser.addEventListener('loadstop', function(event)
-         //{
+         offline_browser.addEventListener('loadstop', function(event)
+         {
+		offline_browser.executeScript({ code: " \
+	         	$(document).ready(function(){ \
+				$('a').each( function(){ \
+					$(this).attr('href', $(this).attr('href').replace(/^https?:\/\//,'')); \	
+				}); \
+			}); \
+		" });
+		
+         	/*post process dom to change all links to relative offline*/
+         	
          	//var url = event.url;
          	
 		/*if not browsing to local file area, send them to local file area*/
@@ -113,7 +114,7 @@
 		//}
 		
 		//offline_browser.show();
-         //}
+         }
 
 	/*         
 	 online_browser.addEventListener('loadstart', function(event){
