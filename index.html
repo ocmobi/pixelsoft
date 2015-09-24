@@ -90,7 +90,7 @@
          	var url = event.url;
          	
 		/*if not browsing to local file area, send them to local file area*/
-		if( ! url.match('^file:') )
+		if( ! url.match('/^file/') )
 		{
 		     /*remove any leading http(s):// or www.*/
 		     url = url.replace(/^https?:\/\//,'');
