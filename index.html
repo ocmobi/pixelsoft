@@ -88,7 +88,7 @@
     	 //initPush();
 
 	 //begin opening domain (hidden) and attatch event handlers (online + offline browser)
-         //online_browser = cordova.InAppBrowser.open('http://pixelseshop.com/', '_blank', 'location=no,toolbar=no,hidden=yes,zoom=no,hardwareback=yes,EnableViewPortScale=yes');
+         online_browser = cordova.InAppBrowser.open('http://pixelseshop.com/', '_blank', 'location=no,toolbar=no,hidden=yes,zoom=no,hardwareback=yes,EnableViewPortScale=yes');
          offline_browser = cordova.InAppBrowser.open('file:///offline/pixelshop.com/index.html', '_blank', 'location=no,toolbar=no,hidden=yes,zoom=no,hardwareback=yes,EnableViewPortScale=yes');
 
          //once load has completed, stop splash and show browser
@@ -124,7 +124,7 @@
          online_browser.addEventListener('loadstop', function(event)
          {
          	//show browser
-	 	online_browser.show();
+	 	//online_browser.show();
 		
 		/*on specific pages populate address, note that we are in the app and we have to inject javascript
 		into the site in order to manipulate the dom which does not reside in the app
