@@ -26,11 +26,11 @@
 	<script type="text/javascript">
 	var address = {city:"", state:"", zip:"", country:"", address:""};
 
-	var offline = false,
-	    loaded  = false;
+	var offline = false;
+	var loaded  = false;
 	
-	var online_browser = null,
-	    offline_browser = null;
+	var online_browser = null;
+	var offline_browser = null;
 	
 	//var push = null;
 
@@ -72,7 +72,7 @@
 		//}, 5000 );
 	
 	/*begin async geolocation lookup*/
-	navigator.geolocation.getCurrentPosition(onSuccessGeolocation, onErrorGeolocation);
+	//navigator.geolocation.getCurrentPosition(onSuccessGeolocation, onErrorGeolocation);
 	
 	 /*push notification object*/
 	 //push = window.plugins.pushNotification;
@@ -81,47 +81,45 @@
     	 //initPush();
 
 	 //begin opening domain (hidden) and attatch event handlers (online + offline browser)
-         online_browser = cordova.InAppBrowser.open('http://pixelseshop.com/', '_blank', 'location=no,toolbar=no,hidden=yes,zoom=no,hardwareback=yes,EnableViewPortScale=yes');
-         offline_browser = cordova.InAppBrowser.open('file:///android_asset/www/offline/pixelshop.com/index.html', '_blank', 'location=no,toolbar=no,hidden=yes,zoom=no,hardwareback=yes,EnableViewPortScale=yes');
+         //online_browser = cordova.InAppBrowser.open('http://pixelseshop.com/', '_blank', 'location=no,toolbar=no,hidden=yes,zoom=no,hardwareback=yes,EnableViewPortScale=yes');
+         offline_browser = cordova.InAppBrowser.open('file:///android_asset/www/offline/pixelshop.com/index.html', '_blank', 'location=no,toolbar=no,hidden=no,zoom=no,hardwareback=yes,EnableViewPortScale=yes');
 
          //once load has completed, stop splash and show browser
          offline_browser.addEventListener('loadstop', function(event)
          {
-         	var url = event.url;
+         	//var url = event.url;
          	
 		/*if not browsing to local file area, send them to local file area*/
-		if( ! url.match('/^file/') )
-		{
-		     /*remove any leading http(s):// or www.*/
-		     url = url.replace(/^https?:\/\//,'');
-		     url = url.replace(/^www\./,'');
-		     
-		     /*add leading file identifier*/
-		     url = 'file:///offline/' + url;
-		     online_browser.executeScript({
-		        code: "window.location = '"+url+"';"
-		    });	
-		}
+		//if( ! url.match('/^file/') )
+		//{
+		//     /*remove any leading http(s):// or www.*/
+		//     url = url.replace(/^https?:\/\//,'');
+		//     url = url.replace(/^www\./,'');
+		//     
+		//     /*add leading file identifier*/
+		//     url = 'file:///offline/' + url;
+		//     online_browser.executeScript({
+		//        code: "window.location = '"+url+"';"
+		//    });	
+		//}
 		
-		offline_browser.show();
+		//offline_browser.show();
          }
-         
+
+	/*         
 	 online_browser.addEventListener('loadstart', function(event){
-	 	/*on subsequent navigation after load, show loader*/
 	 	if( loaded == true )
 		{
 		}
 	 });
-
+	*/
          //once load has completed, stop splash and show browser
+         /*
          online_browser.addEventListener('loadstop', function(event)
          {
          	//show browser
 	 	//online_browser.show();
 		
-		/*on specific pages populate address, note that we are in the app and we have to inject javascript
-		into the site in order to manipulate the dom which does not reside in the app
-		*/
 		online_browser.executeScript({ code: " \
 			$('input[name=\"address_1\"]').val( '"+address.address+"' ); \
 			$('input[name=\"city\"]').val( '"+address.city+"' ); \
@@ -133,7 +131,6 @@
 			} \
 		" });
 		
-		/*mark as loaded after initial load*/			   
 		if( loaded == false )
 		{
 			loaded = true;
@@ -141,9 +138,9 @@
          });
 
          online_browser.addEventListener('exit', function(event) {
-         	/*quit the app*/
              	navigator.app.exitApp();
          });
+         */
     }
 
 	// onSuccess Geolocation
