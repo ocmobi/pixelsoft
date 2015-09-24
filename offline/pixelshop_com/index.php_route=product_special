@@ -1,0 +1,2191 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<!--[if IE 8 ]><html dir="ltr" lang="en" class="ie8"><![endif]-->
+<!--[if IE 9 ]><html dir="ltr" lang="en" class="ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html dir="ltr" lang="en">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Special Offers</title>
+<base href="http://pixelseshop.com/" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link href="http://pixelseshop.com/image/catalog/cart.png" rel="icon" />
+<script src="catalog/view/javascript/jquery/jquery-2.1.1.min.js" type="text/javascript"></script>
+<script src="catalog/view/javascript/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<link href="catalog/view/javascript/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+<link href="//fonts.googleapis.com/css?family=Open+Sans:400,400i,300,700" rel="stylesheet" type="text/css" />
+
+<link href="https://fonts.googleapis.com/css?family=Istok+Web:500,700" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Archivo+Narrow:400,700" rel="stylesheet" type="text/css" />
+<link href='https://fonts.googleapis.com/css?family=Ubuntu:400,700,500' rel='stylesheet' type='text/css' />
+
+<link href="catalog/view/theme/OPC070174-1/stylesheet/stylesheet.css" rel="stylesheet" />
+
+<link href="catalog/view/theme/OPC070174-1/stylesheet/sk_style.css" rel="stylesheet" />
+
+
+<link rel="stylesheet" type="text/css" href="catalog/view/theme/OPC070174-1/stylesheet/megnor/carousel.css" />
+<link rel="stylesheet" type="text/css" href="catalog/view/theme/OPC070174-1/stylesheet/megnor/custom.css" />
+<link rel="stylesheet" type="text/css" href="catalog/view/theme/OPC070174-1/stylesheet/megnor/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="catalog/view/theme/OPC070174-1/stylesheet/megnor/lightbox.css" />
+
+
+<link href="catalog/view/javascript/jquery/owl-carousel/owl.carousel.css" type="text/css" rel="stylesheet" media="screen" />
+<link href="catalog/view/javascript/jquery/owl-carousel/owl.transitions.css" type="text/css" rel="stylesheet" media="screen" />
+
+<!-- Megnor www.templatemela.com - Start -->
+<script type="text/javascript" src="catalog/view/javascript/megnor/custom.js"></script>
+<script type="text/javascript" src="catalog/view/javascript/megnor/jstree.min.js"></script>
+<script type="text/javascript" src="catalog/view/javascript/megnor/carousel.min.js"></script>
+<script type="text/javascript" src="catalog/view/javascript/megnor/megnor.min.js"></script>
+<script type="text/javascript" src="catalog/view/javascript/megnor/jquery.custom.min.js"></script>
+<script type="text/javascript" src="catalog/view/javascript/megnor/jquery.formalize.min.js"></script> 
+<script type="text/javascript" src="catalog/view/javascript/megnor/tabs.js"></script>
+ <script type="text/javascript" src="catalog/view/javascript/lightbox/lightbox-2.6.min.js"></script>
+<!-- Megnor www.templatemela.com - End -->
+
+<script src="catalog/view/javascript/common.js" type="text/javascript"></script>
+
+<script src="catalog/view/javascript/jquery/owl-carousel/owl.carousel.min.js" type="text/javascript"></script>
+</head>
+
+
+<body class="product-special layout-2 left-col">
+<nav id="top">
+  <div class="container">
+	<div class="nav pull-left">
+		
+		<div class="pull-left">
+<form action="http://pixelseshop.com/index.php?route=common/language/language" method="post" enctype="multipart/form-data" id="language">
+  <div class="btn-group">
+    <button class="btn btn-link dropdown-toggle language" data-toggle="dropdown">
+            <img src="image/flags/gb.png" alt="English" title="English">
+                    <span>Language</span> <i class="fa fa-caret-down"></i></button>
+    <ul class="dropdown-menu language-menu">
+            <li><a href="en"><img src="image/flags/gb.png" alt="English" title="English" /> English</a></li>
+            <li><a href="ar"><img src="image/flags/sa.png" alt="Arbaic" title="Arbaic" /> Arbaic</a></li>
+          </ul>
+  </div>
+  <input type="hidden" name="code" value="" />
+  <input type="hidden" name="redirect" value="http://pixelseshop.com/index.php?route=product/special" />
+</form>
+</div>
+		<div class="pull-left">
+<form action="http://pixelseshop.com/index.php?route=common/currency/currency" method="post" enctype="multipart/form-data" id="currency">
+  <div class="btn-group">
+    <button class="btn btn-link dropdown-toggle currency" data-toggle="dropdown">
+                                    <strong>$</strong>
+            <span>Currency</span> <i class="fa fa-caret-down"></i></button>
+    <ul class="dropdown-menu currency-menu">
+                  <li><button class="currency-select btn btn-link btn-block" type="button" name="EUR">€ Euro</button></li>
+                        <li><button class="currency-select btn btn-link btn-block" type="button" name="GBP">£ Pound Sterling</button></li>
+                        <li><button class="currency-select btn btn-link btn-block" type="button" name="SAR">﷼ Saudi Arabia Riyal</button></li>
+                        <li><button class="currency-select btn btn-link btn-block" type="button" name="USD">$ US Dollar</button></li>
+                </ul>
+  </div>
+  <input type="hidden" name="code" value="" />
+  <input type="hidden" name="redirect" value="http://pixelseshop.com/index.php?route=product/special" />
+</form>
+</div>
+	</div>
+    <div id="top-links" class="nav pull-right">
+      <ul class="list-inline">
+        
+        <li class="dropdown myaccount"><a href="http://pixelseshop.com/index.php?route=account/account" title="My Account" class="dropdown-toggle" data-toggle="dropdown"> <span>My Account</span> <span class="caret"></span></a>
+          <ul class="dropdown-menu dropdown-menu-right myaccount-menu">
+                        <li><a href="http://pixelseshop.com/index.php?route=account/register">Register</a></li>
+            <li><a href="http://pixelseshop.com/index.php?route=account/login">Login</a></li>
+                      </ul>
+        </li>
+        <li><a href="http://pixelseshop.com/index.php?route=account/wishlist" id="wishlist-total" title="Wish List (0)"><span >Wish List (0)</span></a></li>
+        <li><a href="http://pixelseshop.com/index.php?route=checkout/checkout" title="Checkout"><span >Checkout</span></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<header>
+ 
+  <div class="header container">
+  
+      <div class="header-logo">
+        <div id="logo">
+                    <a href="http://pixelseshop.com/index.php?route=common/home"><img src="http://pixelseshop.com/image/catalog/pixelseshop_logo.png" title="PixelsEShop" alt="PixelsEShop" class="img-responsive" /></a>
+                  </div>
+      </div>
+	<div class="header-right">
+		<div class="content_headercms_top">
+<div class=header-tele-cms>
+<div class=telephone></div>
+
+<div class=cms-data>
+<span class=call>Call us now </span> 
+<span class=call-no>Toll free : 0123-456-789</span>
+</div>
+
+</div> </div>
+		<div class="header-cart"><div id="cart" class="btn-group btn-block">
+  <button type="button" data-toggle="dropdown" data-loading-text="Loading..." class="btn btn-inverse btn-block btn-lg dropdown-toggle"> <span id="cart-total">0</span></button>
+  <ul class="dropdown-menu pull-right cart-menu">
+        <li>
+      <p class="text-center">Your shopping cart is empty!</p>
+    </li>
+      </ul>
+</div>
+</div>
+	</div>
+	<div class="header-search"><div id="search" class="input-group">
+  <input type="text" name="search" value="" placeholder="Search" class="form-control input-lg" />
+  <span class="input-group-btn">
+    <button type="button" class="btn btn-default btn-lg">Search</button>
+  </span>
+</div></div>
+    </div>
+
+ 
+</header>
+<div class="nav-inner-cms">
+  <div class="header-bottom">
+	<div class="main-menu container" id="cms-menu">
+        <ul class="main-navigation">
+
+			<li class="first level0"><a href="http://pixelseshop.com/index.php?route=affiliate/account">Affiliates</a></li>
+			
+            <li class="level0"><a href="http://pixelseshop.com/index.php?route=account/voucher">Gift Vouchers</a></li>
+               
+            <li class="level0"><a href="http://pixelseshop.com/index.php?route=product/manufacturer">Brands</a></li>   
+                
+            <li class="level0"><a href="http://pixelseshop.com/index.php?route=account/return/add">Returns</a></li> 
+                
+            <li class="level0"><a href="http://pixelseshop.com/index.php?route=information/sitemap">Site Map</a></li>
+                
+            <li class="last level0"><a href="http://pixelseshop.com/index.php?route=information/contact">Contact Us</a></li>
+              
+         </ul>
+     </div>
+     </div>
+</div>
+
+<div class="content_headercms_bottom">
+<div class=headercms>
+<div class=header-bottom container=>
+<div class=header-cms>
+<div class=container>
+<div class=box-cms-content>
+<div class=first-content content=>
+<div class=inner-content>
+<div class=service-content>
+<div class=icon-left1>&nbsp;</div>
+
+<div class=service-right>
+<div class=title>UP TO 5% REWARD</div>
+
+<div class=sub-title>At vero eos et accusamus et iusto odio dignis</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class=second-content content=>
+<div class=inner-content>
+<div class=service-content>
+<div class=icon-left2>&nbsp;</div>
+
+<div class=service-right>
+<div class=title>DELIVERY SCHEDULE</div>
+
+<div class=sub-title>At vero eos et accusamus et iusto odio dignis</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class=third-content content=>
+<div class=inner-content>
+<div class=service-content>
+<div class=icon-left3>&nbsp;</div>
+
+<div class=service-right>
+<div class=title>SAME DAY SHIPPING</div>
+
+<div class=sub-title>At vero eos et accusamus et iusto odio dignis</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div> </div>
+
+<nav class="nav-container" role="navigation">
+<div class="nav-inner">
+<!-- ======= Menu Code START ========= -->
+<!-- Opencart 3 level Category Menu-->
+<div class="container">
+<div id="menu" class="main-menu">
+
+<div class="nav-responsive"><span>Menu</span><div class="expandable"></div></div>
+  <ul class="main-navigation">
+        <li><a href="http://pixelseshop.com/index.php?route=product/category&amp;path=20">Desktops</a>
+      
+                <ul>
+                             										
+				<li>
+								
+					<a href="http://pixelseshop.com/index.php?route=product/category&amp;path=20_26" >PC</a>
+										  
+			</li>		
+                              										
+				<li>
+								
+					<a href="http://pixelseshop.com/index.php?route=product/category&amp;path=20_27" >Mac</a>
+										  
+			</li>		
+                            </ul>
+                  </li>
+        <li><a href="http://pixelseshop.com/index.php?route=product/category&amp;path=18">Laptops &amp; Notebooks</a>
+      
+                <ul>
+                             										
+				<li>
+								
+					<a href="http://pixelseshop.com/index.php?route=product/category&amp;path=18_46" >Macs</a>
+										  
+			</li>		
+                              										
+				<li>
+								
+					<a href="http://pixelseshop.com/index.php?route=product/category&amp;path=18_45" >Windows</a>
+										  
+			</li>		
+                            </ul>
+                  </li>
+        <li><a href="http://pixelseshop.com/index.php?route=product/category&amp;path=25">Components</a>
+      
+                <ul>
+                             										
+				<li>
+								
+					<a href="http://pixelseshop.com/index.php?route=product/category&amp;path=25_29" >Mice and Trackballs</a>
+										  
+			</li>		
+                              										
+				<li>
+									<a href="http://pixelseshop.com/index.php?route=product/category&amp;path=25_28" class="activSub" >Monitors</a> 					
+												<ul class="col5">
+									<li><a href="http://pixelseshop.com/index.php?route=product/category&amp;path=28_35"  >test 1</a></li>
+				 					<li><a href="http://pixelseshop.com/index.php?route=product/category&amp;path=28_36"  >test 2</a></li>
+				 					
+
+				<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">Information</a>
+          <div class="dropdown-menu">
+            <div class="dropdown-inner">
+			  <ul class="list-unstyled">
+          <li><a href="http://pixelseshop.com/index.php?route=information/information&amp;information_id=4">About Us</a></li>
+                    <li><a href="http://pixelseshop.com/index.php?route=information/information&amp;information_id=6">Delivery Information</a></li>
+                    <li><a href="http://pixelseshop.com/index.php?route=information/information&amp;information_id=3">Privacy Policy</a></li>
+                    <li><a href="http://pixelseshop.com/index.php?route=information/information&amp;information_id=5">Terms &amp; Conditions</a></li>
+          		  <li><a href="http://pixelseshop.com/index.php?route=information/contact">Contact Us</a></li>
+		  </ul>
+		  </div></div>
+		  </li>
+		          
+				</ul>
+			  		  
+			</li>		
+                              										
+				<li>
+								
+					<a href="http://pixelseshop.com/index.php?route=product/category&amp;path=25_30" >Printers</a>
+										  
+			</li>		
+                              										
+				<li>
+								
+					<a href="http://pixelseshop.com/index.php?route=product/category&amp;path=25_31" >Scanners</a>
+										  
+			</li>		
+                              										
+				<li>
+								
+					<a href="http://pixelseshop.com/index.php?route=product/category&amp;path=25_32" >Web Cameras</a>
+										  
+			</li>		
+                            </ul>
+                  </li>
+        <li><a href="http://pixelseshop.com/index.php?route=product/category&amp;path=57">Tablets</a>
+          </li>
+        <li><a href="http://pixelseshop.com/index.php?route=product/category&amp;path=17">Software</a>
+          </li>
+        <li><a href="http://pixelseshop.com/index.php?route=product/category&amp;path=24">Phones &amp; PDAs</a>
+          </li>
+        <li><a href="http://pixelseshop.com/index.php?route=product/category&amp;path=33">Cameras</a>
+          </li>
+        <li><a href="http://pixelseshop.com/index.php?route=product/category&amp;path=34">MP3 Players</a>
+      
+                <ul>
+                             										
+				<li>
+								
+					<a href="http://pixelseshop.com/index.php?route=product/category&amp;path=34_43" >test 11</a>
+										  
+			</li>		
+                              										
+				<li>
+								
+					<a href="http://pixelseshop.com/index.php?route=product/category&amp;path=34_44" >test 12</a>
+										  
+			</li>		
+                              										
+				<li>
+								
+					<a href="http://pixelseshop.com/index.php?route=product/category&amp;path=34_47" >test 15</a>
+										  
+			</li>		
+                              										
+				<li>
+								
+					<a href="http://pixelseshop.com/index.php?route=product/category&amp;path=34_48" >test 16</a>
+										  
+			</li>		
+                              										
+				<li>
+								
+					<a href="http://pixelseshop.com/index.php?route=product/category&amp;path=34_49" >test 17</a>
+										  
+			</li>		
+                              										
+				<li>
+								
+					<a href="http://pixelseshop.com/index.php?route=product/category&amp;path=34_50" >test 18</a>
+										  
+			</li>		
+                              										
+				<li>
+								
+					<a href="http://pixelseshop.com/index.php?route=product/category&amp;path=34_51" >test 19</a>
+										  
+			</li>		
+                              										
+				<li>
+									<a href="http://pixelseshop.com/index.php?route=product/category&amp;path=34_52" class="activSub" >test 20</a> 					
+												<ul class="col5">
+									<li><a href="http://pixelseshop.com/index.php?route=product/category&amp;path=52_58"  >test 25</a></li>
+				 					
+
+				<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">Information</a>
+          <div class="dropdown-menu">
+            <div class="dropdown-inner">
+			  <ul class="list-unstyled">
+          <li><a href="http://pixelseshop.com/index.php?route=information/information&amp;information_id=4">About Us</a></li>
+                    <li><a href="http://pixelseshop.com/index.php?route=information/information&amp;information_id=6">Delivery Information</a></li>
+                    <li><a href="http://pixelseshop.com/index.php?route=information/information&amp;information_id=3">Privacy Policy</a></li>
+                    <li><a href="http://pixelseshop.com/index.php?route=information/information&amp;information_id=5">Terms &amp; Conditions</a></li>
+          		  <li><a href="http://pixelseshop.com/index.php?route=information/contact">Contact Us</a></li>
+		  </ul>
+		  </div></div>
+		  </li>
+		          
+				</ul>
+			  		  
+			</li>		
+                              										
+				<li>
+								
+					<a href="http://pixelseshop.com/index.php?route=product/category&amp;path=34_53" >test 21</a>
+										  
+			</li>		
+                              										
+				<li>
+								
+					<a href="http://pixelseshop.com/index.php?route=product/category&amp;path=34_54" >test 22</a>
+										  
+			</li>		
+                              										
+				<li>
+								
+					<a href="http://pixelseshop.com/index.php?route=product/category&amp;path=34_55" >test 23</a>
+										  
+			</li>		
+                              										
+				<li>
+								
+					<a href="http://pixelseshop.com/index.php?route=product/category&amp;path=34_56" >test 24</a>
+										  
+			</li>		
+                              										
+				<li>
+								
+					<a href="http://pixelseshop.com/index.php?route=product/category&amp;path=34_38" >test 4</a>
+										  
+			</li>		
+                              										
+				<li>
+								
+					<a href="http://pixelseshop.com/index.php?route=product/category&amp;path=34_37" >test 5</a>
+										  
+			</li>		
+                              										
+				<li>
+								
+					<a href="http://pixelseshop.com/index.php?route=product/category&amp;path=34_39" >test 6</a>
+										  
+			</li>		
+                              										
+				<li>
+								
+					<a href="http://pixelseshop.com/index.php?route=product/category&amp;path=34_40" >test 7</a>
+										  
+			</li>		
+                              										
+				<li>
+								
+					<a href="http://pixelseshop.com/index.php?route=product/category&amp;path=34_41" >test 8</a>
+										  
+			</li>		
+                              										
+				<li>
+								
+					<a href="http://pixelseshop.com/index.php?route=product/category&amp;path=34_42" >test 9</a>
+										  
+			</li>		
+                            </ul>
+                  </li>
+    	<li class="first level0"><a href="http://pixelseshop.com/index.php?route=affiliate/account">Affiliates</a></li>
+					
+					<li class="level0"><a href="http://pixelseshop.com/index.php?route=account/voucher">Gift Vouchers</a></li>
+					
+					<li class="level0"><a href="http://pixelseshop.com/index.php?route=product/manufacturer">Brands</a></li>   
+					
+					<li class="level0"><a href="http://pixelseshop.com/index.php?route=account/return/add">Returns</a></li> 
+					
+					<li class="level0"><a href="http://pixelseshop.com/index.php?route=information/sitemap">Site Map</a></li>
+					
+					<li class="last level0"><a href="http://pixelseshop.com/index.php?route=information/contact">Contact Us</a></li>
+  </ul>
+</div>
+	
+<!-- ======= Menu Code END ========= -->
+</div>
+</div>
+</nav>   
+<div class="container">
+  <ul class="breadcrumb">
+        <li><a href="http://pixelseshop.com/index.php?route=common/home"><i class="fa fa-home"></i></a></li>
+        <li><a href="http://pixelseshop.com/index.php?route=product/special">Special Offers</a></li>
+      </ul>
+  <div class="row"><column id="column-left" class="col-sm-3 hidden-xs">
+    <div class="box sidebar-category">
+  <div class="box-category-heading"><span class="heading-img"></span>Categories</div>
+  <div class="box-content">
+<ul id="nav-one" class="dropmenu">
+    <li class="level0">
+  	<a href="http://pixelseshop.com/index.php?route=product/category&amp;path=20" class="activSub">Desktops (13)</a> 					
+  				
+    		 <ul>
+		 	 			           										
+				<li>
+								
+					<a href="http://pixelseshop.com/index.php?route=product/category&amp;path=20_26"  >PC</a>
+				
+						  
+			</li>		
+                              										
+				<li>
+								
+					<a href="http://pixelseshop.com/index.php?route=product/category&amp;path=20_27"  >Mac</a>
+				
+						  
+			</li>		
+                    		 </ul>
+	  </li>
+    <li class="level0">
+  	<a href="http://pixelseshop.com/index.php?route=product/category&amp;path=18" class="activSub">Laptops &amp; Notebooks (5)</a> 					
+  				
+    		 <ul>
+		 	 			           										
+				<li>
+								
+					<a href="http://pixelseshop.com/index.php?route=product/category&amp;path=18_46"  >Macs</a>
+				
+						  
+			</li>		
+                              										
+				<li>
+								
+					<a href="http://pixelseshop.com/index.php?route=product/category&amp;path=18_45"  >Windows</a>
+				
+						  
+			</li>		
+                    		 </ul>
+	  </li>
+    <li class="level0">
+  	<a href="http://pixelseshop.com/index.php?route=product/category&amp;path=25" class="activSub">Components (2)</a> 					
+  				
+    		 <ul>
+		 	 			           										
+				<li>
+								
+					<a href="http://pixelseshop.com/index.php?route=product/category&amp;path=25_29"  >Mice and Trackballs</a>
+				
+						  
+			</li>		
+                              										
+				<li>
+									<a href="http://pixelseshop.com/index.php?route=product/category&amp;path=25_28" class="activSub" >Monitors</a> 					
+				
+												<ul>
+									<li><a href="http://pixelseshop.com/index.php?route=product/category&amp;path=28_35"  >test 1</a></li>
+				 					<li><a href="http://pixelseshop.com/index.php?route=product/category&amp;path=28_36"  >test 2</a></li>
+				 				</ul>
+							  		  
+			</li>		
+                              										
+				<li>
+								
+					<a href="http://pixelseshop.com/index.php?route=product/category&amp;path=25_30"  >Printers</a>
+				
+						  
+			</li>		
+                              										
+				<li>
+								
+					<a href="http://pixelseshop.com/index.php?route=product/category&amp;path=25_31"  >Scanners</a>
+				
+						  
+			</li>		
+                              										
+				<li>
+								
+					<a href="http://pixelseshop.com/index.php?route=product/category&amp;path=25_32"  >Web Cameras</a>
+				
+						  
+			</li>		
+                    		 </ul>
+	  </li>
+    <li class="level0">
+  				
+	<a href="http://pixelseshop.com/index.php?route=product/category&amp;path=57">Tablets (1)</a> 	
+  				
+      </li>
+    <li class="level0">
+  				
+	<a href="http://pixelseshop.com/index.php?route=product/category&amp;path=17">Software (0)</a> 	
+  				
+      </li>
+    <li class="level0">
+  				
+	<a href="http://pixelseshop.com/index.php?route=product/category&amp;path=24">Phones &amp; PDAs (3)</a> 	
+  				
+      </li>
+    <li class="level0">
+  				
+	<a href="http://pixelseshop.com/index.php?route=product/category&amp;path=33">Cameras (2)</a> 	
+  				
+      </li>
+    <li class="level0">
+  	<a href="http://pixelseshop.com/index.php?route=product/category&amp;path=34" class="activSub">MP3 Players (4)</a> 					
+  				
+    		 <ul>
+		 	 			           										
+				<li>
+								
+					<a href="http://pixelseshop.com/index.php?route=product/category&amp;path=34_43"  >test 11</a>
+				
+						  
+			</li>		
+                              										
+				<li>
+								
+					<a href="http://pixelseshop.com/index.php?route=product/category&amp;path=34_44"  >test 12</a>
+				
+						  
+			</li>		
+                              										
+				<li>
+								
+					<a href="http://pixelseshop.com/index.php?route=product/category&amp;path=34_47"  >test 15</a>
+				
+						  
+			</li>		
+                              										
+				<li>
+								
+					<a href="http://pixelseshop.com/index.php?route=product/category&amp;path=34_48"  >test 16</a>
+				
+						  
+			</li>		
+                              										
+				<li>
+								
+					<a href="http://pixelseshop.com/index.php?route=product/category&amp;path=34_49"  >test 17</a>
+				
+						  
+			</li>		
+                              										
+				<li>
+								
+					<a href="http://pixelseshop.com/index.php?route=product/category&amp;path=34_50"  >test 18</a>
+				
+						  
+			</li>		
+                              										
+				<li>
+								
+					<a href="http://pixelseshop.com/index.php?route=product/category&amp;path=34_51"  >test 19</a>
+				
+						  
+			</li>		
+                              										
+				<li>
+									<a href="http://pixelseshop.com/index.php?route=product/category&amp;path=34_52" class="activSub" >test 20</a> 					
+				
+												<ul>
+									<li><a href="http://pixelseshop.com/index.php?route=product/category&amp;path=52_58"  >test 25</a></li>
+				 				</ul>
+							  		  
+			</li>		
+                              										
+				<li>
+								
+					<a href="http://pixelseshop.com/index.php?route=product/category&amp;path=34_53"  >test 21</a>
+				
+						  
+			</li>		
+                              										
+				<li>
+								
+					<a href="http://pixelseshop.com/index.php?route=product/category&amp;path=34_54"  >test 22</a>
+				
+						  
+			</li>		
+                              										
+				<li>
+								
+					<a href="http://pixelseshop.com/index.php?route=product/category&amp;path=34_55"  >test 23</a>
+				
+						  
+			</li>		
+                              										
+				<li>
+								
+					<a href="http://pixelseshop.com/index.php?route=product/category&amp;path=34_56"  >test 24</a>
+				
+						  
+			</li>		
+                              										
+				<li>
+								
+					<a href="http://pixelseshop.com/index.php?route=product/category&amp;path=34_38"  >test 4</a>
+				
+						  
+			</li>		
+                              										
+				<li>
+								
+					<a href="http://pixelseshop.com/index.php?route=product/category&amp;path=34_37"  >test 5</a>
+				
+						  
+			</li>		
+                              										
+				<li>
+								
+					<a href="http://pixelseshop.com/index.php?route=product/category&amp;path=34_39"  >test 6</a>
+				
+						  
+			</li>		
+                              										
+				<li>
+								
+					<a href="http://pixelseshop.com/index.php?route=product/category&amp;path=34_40"  >test 7</a>
+				
+						  
+			</li>		
+                              										
+				<li>
+								
+					<a href="http://pixelseshop.com/index.php?route=product/category&amp;path=34_41"  >test 8</a>
+				
+						  
+			</li>		
+                              										
+				<li>
+								
+					<a href="http://pixelseshop.com/index.php?route=product/category&amp;path=34_42"  >test 9</a>
+				
+						  
+			</li>		
+                    		 </ul>
+	  </li>
+   </ul>
+  </div>
+</div>
+
+
+
+
+    <div class="box">
+  <div class="box-heading">Latest</div>
+  <div class="box-content">
+			
+	
+	<div class="box-product productbox-grid" id="latest-grid">
+    <div class="product-items">
+    <div class="product-block product-thumb transition">
+	  <div class="product-block-inner">
+	  	
+		<div class="image">
+			<a href="http://pixelseshop.com/index.php?route=product/product&amp;product_id=49"><img src="http://pixelseshop.com/image/cache/catalog/demo/samsung_tab_1-200x200.jpg" alt="Samsung Galaxy Tab 10.1" title="Samsung Galaxy Tab 10.1" class="img-responsive" /></a>
+	         
+			 	
+		</div>
+      	 <div class="product-details">
+		<div class="caption">
+ 			       		<h4><a href="http://pixelseshop.com/index.php?route=product/product&amp;product_id=49" title="Samsung Galaxy Tab 10.1">
+					Samsung Galaxy Tab 1..				</a>
+				</h4>
+						
+						<div class="price">
+			  			  $241.99			  			  			  <span class="price-tax">Ex Tax: $199.99</span>
+			  			</div>
+						        </div>
+ 	    
+		<div class="button-group">
+        	<button type="button" class="addtocart" onclick="cart.add('49');">Add to Cart</button>
+        	<button class="wishlist" type="button" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('49');"><i class="fa fa-heart"></i></button>
+        	<button class="compare" type="button" data-toggle="tooltip" title="Compare this Product" onclick="compare.add('49');"><i class="fa fa-exchange"></i></button>
+        </div>
+	  </div>
+  	</div>
+	</div>
+</div>
+  
+    <div class="product-items">
+    <div class="product-block product-thumb transition">
+	  <div class="product-block-inner">
+	  	
+		<div class="image">
+			<a href="http://pixelseshop.com/index.php?route=product/product&amp;product_id=48"><img src="http://pixelseshop.com/image/cache/catalog/demo/ipod_classic_1-200x200.jpg" alt="iPod Classic" title="iPod Classic" class="img-responsive" /></a>
+	         
+			 	
+		</div>
+      	 <div class="product-details">
+		<div class="caption">
+ 			       		<h4><a href="http://pixelseshop.com/index.php?route=product/product&amp;product_id=48" title="iPod Classic">
+					iPod Classic				</a>
+				</h4>
+						
+						<div class="price">
+			  			  $122.00			  			  			  <span class="price-tax">Ex Tax: $100.00</span>
+			  			</div>
+						        </div>
+ 	    
+		<div class="button-group">
+        	<button type="button" class="addtocart" onclick="cart.add('48');">Add to Cart</button>
+        	<button class="wishlist" type="button" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('48');"><i class="fa fa-heart"></i></button>
+        	<button class="compare" type="button" data-toggle="tooltip" title="Compare this Product" onclick="compare.add('48');"><i class="fa fa-exchange"></i></button>
+        </div>
+	  </div>
+  	</div>
+	</div>
+</div>
+  
+    <div class="product-items">
+    <div class="product-block product-thumb transition">
+	  <div class="product-block-inner">
+	  	
+		<div class="image">
+			<a href="http://pixelseshop.com/index.php?route=product/product&amp;product_id=47"><img src="http://pixelseshop.com/image/cache/catalog/demo/hp_1-200x200.jpg" alt="HP LP3065" title="HP LP3065" class="img-responsive" /></a>
+	         
+			 	
+		</div>
+      	 <div class="product-details">
+		<div class="caption">
+ 			       		<h4><a href="http://pixelseshop.com/index.php?route=product/product&amp;product_id=47" title="HP LP3065">
+					HP LP3065				</a>
+				</h4>
+						
+						<div class="price">
+			  			  $122.00			  			  			  <span class="price-tax">Ex Tax: $100.00</span>
+			  			</div>
+						        </div>
+ 	    
+		<div class="button-group">
+        	<button type="button" class="addtocart" onclick="cart.add('47');">Add to Cart</button>
+        	<button class="wishlist" type="button" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('47');"><i class="fa fa-heart"></i></button>
+        	<button class="compare" type="button" data-toggle="tooltip" title="Compare this Product" onclick="compare.add('47');"><i class="fa fa-exchange"></i></button>
+        </div>
+	  </div>
+  	</div>
+	</div>
+</div>
+  
+  </div>
+  </div>
+</div>
+<span class="latest_default_width" style="display:none; visibility:hidden"></span>
+    	
+<div id="banner0" class="single-banner">
+  </div>
+<script type="text/javascript"><!--
+$('.bannercarousel').owlCarousel({
+	items: 1,
+	autoPlay: 3000,
+	singleItem: true,
+	navigation: false,
+	pagination: true,
+	transitionStyle: 'fade'
+});
+--></script>    <div class="box">
+  <div class="box-heading">Bestsellers</div>
+  <div class="box-content">
+			
+	
+	<div class="box-product productbox-grid" id="bestseller-grid">
+    <div class="product-items">
+    <div class="product-block product-thumb transition">
+	  <div class="product-block-inner">
+	  	
+		<div class="image">
+			<a href="http://pixelseshop.com/index.php?route=product/product&amp;product_id=28"><img src="http://pixelseshop.com/image/cache/catalog/demo/htc_touch_hd_1-200x200.jpg" alt="HTC Touch HD" title="HTC Touch HD" class="img-responsive" /></a>
+	         
+			 	
+		</div>
+      	<div class="product-details">
+		<div class="caption">
+ 			       	<h4><a href="http://pixelseshop.com/index.php?route=product/product&amp;product_id=28" title="HTC Touch HD">
+					HTC Touch HD				</a>
+				</h4>
+						
+						<div class="price">
+			  			  $122.00			  			  			  <span class="price-tax">Ex Tax: $100.00</span>
+			  			</div>
+						        </div>
+ 	    
+		<div class="button-group">
+        	<button type="button" class="addtocart" onclick="cart.add('28');">Add to Cart</button>
+        	<button class="wishlist" type="button" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('28');"><i class="fa fa-heart"></i></button>
+        	<button class="compare" type="button" data-toggle="tooltip" title="Compare this Product" onclick="compare.add('28');"><i class="fa fa-exchange"></i></button>
+        </div>
+	  </div>
+  	</div>
+	</div>
+</div>
+  
+    <div class="product-items">
+    <div class="product-block product-thumb transition">
+	  <div class="product-block-inner">
+	  	
+		<div class="image">
+			<a href="http://pixelseshop.com/index.php?route=product/product&amp;product_id=30"><img src="http://pixelseshop.com/image/cache/catalog/demo/canon_eos_5d_1-200x200.jpg" alt="Canon EOS 5D" title="Canon EOS 5D" class="img-responsive" /></a>
+	  			<span class="saleicon sale">Sale</span>         
+			 	
+		</div>
+      	<div class="product-details">
+		<div class="caption">
+ 			       	<h4><a href="http://pixelseshop.com/index.php?route=product/product&amp;product_id=30" title="Canon EOS 5D">
+					Canon EOS 5D				</a>
+				</h4>
+						
+						<div class="price">
+			  			  <span class="price-old">$5.00</span><span class="price-new">$5.00</span>
+			  			  			  <span class="price-tax">Ex Tax: $5.00</span>
+			  			</div>
+						        </div>
+ 	    
+		<div class="button-group">
+        	<button type="button" class="addtocart" onclick="cart.add('30');">Add to Cart</button>
+        	<button class="wishlist" type="button" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('30');"><i class="fa fa-heart"></i></button>
+        	<button class="compare" type="button" data-toggle="tooltip" title="Compare this Product" onclick="compare.add('30');"><i class="fa fa-exchange"></i></button>
+        </div>
+	  </div>
+  	</div>
+	</div>
+</div>
+  
+    <div class="product-items">
+    <div class="product-block product-thumb transition">
+	  <div class="product-block-inner">
+	  	
+		<div class="image">
+			<a href="http://pixelseshop.com/index.php?route=product/product&amp;product_id=47"><img src="http://pixelseshop.com/image/cache/catalog/demo/hp_1-200x200.jpg" alt="HP LP3065" title="HP LP3065" class="img-responsive" /></a>
+	         
+			 	
+		</div>
+      	<div class="product-details">
+		<div class="caption">
+ 			       	<h4><a href="http://pixelseshop.com/index.php?route=product/product&amp;product_id=47" title="HP LP3065">
+					HP LP3065				</a>
+				</h4>
+						
+						<div class="price">
+			  			  $122.00			  			  			  <span class="price-tax">Ex Tax: $100.00</span>
+			  			</div>
+						        </div>
+ 	    
+		<div class="button-group">
+        	<button type="button" class="addtocart" onclick="cart.add('47');">Add to Cart</button>
+        	<button class="wishlist" type="button" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('47');"><i class="fa fa-heart"></i></button>
+        	<button class="compare" type="button" data-toggle="tooltip" title="Compare this Product" onclick="compare.add('47');"><i class="fa fa-exchange"></i></button>
+        </div>
+	  </div>
+  	</div>
+	</div>
+</div>
+  
+  </div>
+  </div>
+</div>
+<span class="bestseller_default_width" style="display:none; visibility:hidden"></span>
+  </column>
+                <div id="content" class="col-sm-9"><div class="main-slider">
+<div id="spinner"></div>
+<div id="slideshow0" class="owl-carousel" style="opacity: 1;">
+    <div class="item">
+        <img src="http://pixelseshop.com/image/cache/catalog/main-banner-915x420-915x420.jpg" alt="MacBookAir" class="img-responsive" />
+      </div>
+    <div class="item">
+        <a href="index.php?route=product/product&amp;path=57&amp;product_id=49"><img src="http://pixelseshop.com/image/cache/catalog/main-banner3-915x420-915x420.jpg" alt="iPhone 6" class="img-responsive" /></a>
+      </div>
+  </div>
+</div>
+<script type="text/javascript">
+$('#slideshow0').owlCarousel({
+	items: 6,
+	autoPlay: 3000,
+	singleItem: true,
+	navigation: true,
+	navigationText: ['<i class="fa fa-chevron-left fa-5x"></i>', '<i class="fa fa-chevron-right fa-5x"></i>'],
+	pagination: true	
+});
+</script>
+<script type="text/javascript">
+	// Can also be used with $(document).ready()
+	$(window).load(function() {		
+	  $("#spinner").fadeOut("slow");
+	});	
+</script>
+<div class=slider-banner>
+<div class=slide slidebanner1=>
+<a href=#>
+<div class=cms-title>
+<span class=text1>MOBILE CASES</span><br>
+<span class=text2>Upto 50% off</span>
+</div>
+
+</a>
+</div>
+
+<div class=slide slidebanner2=>
+<a href=#>
+<div class=cms-title>
+<span class=text1>COFFEE MACHINE</span><br>
+<span class=text2>Latest Offer</span>
+</div>
+
+</a>
+</div>
+
+<div class=slide slidebanner3=>
+<a href=#>
+<div class=cms-title>
+<span class=text1>BIG OFFER BRANCHY</span><br>
+<span class=text2>Laptop Sale</span>
+</div>
+
+</a>
+</div>
+
+<div class=slide slidebanner4=>
+<a href=#>
+<div class=cms-title>
+<span class=text1>LED MONITORS</span><br>
+<span class=text2>for Desktop</span>
+</div>
+
+</a>
+</div>
+
+</div>	
+<div id="banner1" class="single-banner">
+    <div class="item">
+        <a href="#"><img src="http://pixelseshop.com/image/cache/catalog/cms_banner1-410x152.jpg" alt="subbanner1" class="img-responsive" /></a>
+      </div>
+  </div>
+<script type="text/javascript"><!--
+$('.bannercarousel').owlCarousel({
+	items: 1,
+	autoPlay: 3000,
+	singleItem: true,
+	navigation: false,
+	pagination: true,
+	transitionStyle: 'fade'
+});
+--></script>	
+<div id="banner2" class="single-banner">
+    <div class="item">
+        <a href="#"><img src="http://pixelseshop.com/image/cache/catalog/cms_banner_2-410x152.jpg" alt="subbanner2 " class="img-responsive" /></a>
+      </div>
+  </div>
+<script type="text/javascript"><!--
+$('.bannercarousel').owlCarousel({
+	items: 1,
+	autoPlay: 3000,
+	singleItem: true,
+	navigation: false,
+	pagination: true,
+	transitionStyle: 'fade'
+});
+--></script><div class="hometab">
+<div id="tabs" class="htabs">
+  <ul class='etabs'>
+  <li class='tab'>
+					<a href="#tab-special">Special</a>
+			</li>
+	<li class='tab'>
+				<a href="#tab-bestseller">Bestseller</a>
+			</li>
+	<li class='tab'>
+					<a href="#tab-latest">Latest</a>
+			</li>
+	
+	</ul>
+ </div>
+ 
+  <div id="tab-special" class="tab-content">
+    	 <div class="box">
+				<div class="box-content">
+											
+					<div class="box-product productbox-grid" id="tabspecial-grid">
+													<div class="product-items">
+								<div class="product-block product-thumb transition">
+									<div class="product-block-inner">
+										<div class="image">
+											<a href="http://pixelseshop.com/index.php?route=product/product&amp;product_id=42">
+												<img src="http://pixelseshop.com/image/cache/catalog/demo/apple_cinema_30-330x330.jpg" alt="Apple Cinema 30\&quot;" title="Apple Cinema 30\&quot;" class="img-responsive" /></a>
+																							<span class="saleicon sale">Sale</span>         
+												
+										</div>
+									<div class="button-group">
+                <button type="button" class="addtocart" data-toggle="tooltip"  title="Add to Cart" onclick="cart.add('42');">Add to Cart</button>
+                <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('42');"></button>
+                <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product" onclick="compare.add('42');"></button>
+              </div>
+										<div class="caption">
+											<h4><a href="http://pixelseshop.com/index.php?route=product/product&amp;product_id=42" title="Apple Cinema 30\&quot;">
+											Apple Cinema 30\&quot;										</a>
+										</h4>
+											
+																							<div class="price">
+												  												   <span class="price-old">$122.00</span><span class="price-new">$110.00</span>
+												  												  												  <span class="price-tax">Ex Tax: $90.00</span>
+												  												</div>
+																																	<div class="rating">
+																																										<span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+																																																								<span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+																																																								<span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+																																																								<span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+																																																								<span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+																																							</div>
+																					</div>
+				
+										
+			  
+									</div>
+								</div>
+							</div>
+													<div class="product-items">
+								<div class="product-block product-thumb transition">
+									<div class="product-block-inner">
+										<div class="image">
+											<a href="http://pixelseshop.com/index.php?route=product/product&amp;product_id=30">
+												<img src="http://pixelseshop.com/image/cache/catalog/demo/canon_eos_5d_1-330x330.jpg" alt="Canon EOS 5D" title="Canon EOS 5D" class="img-responsive" /></a>
+																							<span class="saleicon sale">Sale</span>         
+												
+										</div>
+									<div class="button-group">
+                <button type="button" class="addtocart" data-toggle="tooltip"  title="Add to Cart" onclick="cart.add('30');">Add to Cart</button>
+                <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('30');"></button>
+                <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product" onclick="compare.add('30');"></button>
+              </div>
+										<div class="caption">
+											<h4><a href="http://pixelseshop.com/index.php?route=product/product&amp;product_id=30" title="Canon EOS 5D">
+											Canon EOS 5D										</a>
+										</h4>
+											
+																							<div class="price">
+												  												   <span class="price-old">$5.00</span><span class="price-new">$5.00</span>
+												  												  												  <span class="price-tax">Ex Tax: $5.00</span>
+												  												</div>
+																																	<div class="rating">
+																																										<span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+																																																								<span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+																																																								<span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+																																																								<span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+																																																								<span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+																																							</div>
+																					</div>
+				
+										
+			  
+									</div>
+								</div>
+							</div>
+											</div>
+				</div>
+			 </div>
+		 <span class="tabspecial_default_width" style="display:none; visibility:hidden"></span> 
+ </div>
+ 
+ 
+ <div id="tab-bestseller" class="tab-content">
+    	  <div class="box">
+				<div class="box-content">
+											
+					
+					<div class="box-product productbox-grid" id="tabbestseller-grid">
+													<div class="product-items">
+								<div class="product-block product-thumb transition">
+									<div class="product-block-inner">
+										
+										<div class="image">
+											<a href="http://pixelseshop.com/index.php?route=product/product&amp;product_id=30">
+												<img src="http://pixelseshop.com/image/cache/catalog/demo/canon_eos_5d_1-330x330.jpg" alt="Canon EOS 5D" title="Canon EOS 5D" class="img-responsive" />					</a>
+																							<span class="saleicon sale">Sale</span>         
+												
+										</div>
+										<div class="button-group">
+                 <button type="button" class="addtocart" data-toggle="tooltip"  title="Add to Cart" onclick="cart.add('30');">Add to Cart</button>
+                <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('30');"></button>
+                <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product" onclick="compare.add('30');"></button>
+              </div>
+				
+										<div class="caption">
+											<h4><a href="http://pixelseshop.com/index.php?route=product/product&amp;product_id=30" title="Canon EOS 5D">
+											Canon EOS 5D										</a>
+										</h4>
+											
+																							<div class="price">
+												  												  <span class="price-old">$5.00</span><span class="price-new">$5.00</span>
+												  												  												  <span class="price-tax">Ex Tax: $5.00</span>
+												  												</div>
+																																<div class="rating">
+																																										<span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+																																																								<span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+																																																								<span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+																																																								<span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+																																																								<span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+																																							</div>
+																					</div>
+										
+									</div>
+								</div>
+							</div>
+													<div class="product-items">
+								<div class="product-block product-thumb transition">
+									<div class="product-block-inner">
+										
+										<div class="image">
+											<a href="http://pixelseshop.com/index.php?route=product/product&amp;product_id=47">
+												<img src="http://pixelseshop.com/image/cache/catalog/demo/hp_1-330x330.jpg" alt="HP LP3065" title="HP LP3065" class="img-responsive" />					</a>
+											       
+												
+										</div>
+										<div class="button-group">
+                 <button type="button" class="addtocart" data-toggle="tooltip"  title="Add to Cart" onclick="cart.add('47');">Add to Cart</button>
+                <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('47');"></button>
+                <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product" onclick="compare.add('47');"></button>
+              </div>
+				
+										<div class="caption">
+											<h4><a href="http://pixelseshop.com/index.php?route=product/product&amp;product_id=47" title="HP LP3065">
+											HP LP3065										</a>
+										</h4>
+											
+																							<div class="price">
+												  												  $122.00												  												  												  <span class="price-tax">Ex Tax: $100.00</span>
+												  												</div>
+																																<div class="rating">
+																																										<span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+																																																								<span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+																																																								<span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+																																																								<span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+																																																								<span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+																																							</div>
+																					</div>
+										
+									</div>
+								</div>
+							</div>
+													<div class="product-items">
+								<div class="product-block product-thumb transition">
+									<div class="product-block-inner">
+										
+										<div class="image">
+											<a href="http://pixelseshop.com/index.php?route=product/product&amp;product_id=28">
+												<img src="http://pixelseshop.com/image/cache/catalog/demo/htc_touch_hd_1-330x330.jpg" alt="HTC Touch HD" title="HTC Touch HD" class="img-responsive" />					</a>
+											       
+												
+										</div>
+										<div class="button-group">
+                 <button type="button" class="addtocart" data-toggle="tooltip"  title="Add to Cart" onclick="cart.add('28');">Add to Cart</button>
+                <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('28');"></button>
+                <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product" onclick="compare.add('28');"></button>
+              </div>
+				
+										<div class="caption">
+											<h4><a href="http://pixelseshop.com/index.php?route=product/product&amp;product_id=28" title="HTC Touch HD">
+											HTC Touch HD										</a>
+										</h4>
+											
+																							<div class="price">
+												  												  $122.00												  												  												  <span class="price-tax">Ex Tax: $100.00</span>
+												  												</div>
+																																<div class="rating">
+																																										<span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+																																																								<span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+																																																								<span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+																																																								<span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+																																																								<span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+																																							</div>
+																					</div>
+										
+									</div>
+								</div>
+							</div>
+											</div>
+				</div>
+			 </div>
+		 <span class="tabbestseller_default_width" style="display:none; visibility:hidden"></span> 
+ </div>
+<div id="tab-latest" class="tab-content">
+	<div class="box">
+				<div class="box-content">
+																	<div class="customNavigation">
+							<a class="prev">&nbsp;</a>
+							<a class="next">&nbsp;</a>
+						</div>	
+						
+					<div class="box-product product-carousel" id="tablatest-carousel">
+																<div class="slider-item">
+								<div class="product-block product-thumb transition">
+									<div class="product-block-inner">
+										
+										<div class="image">
+											<a href="http://pixelseshop.com/index.php?route=product/product&amp;product_id=49">
+												<img src="http://pixelseshop.com/image/cache/catalog/demo/samsung_tab_1-330x330.jpg" alt="Samsung Galaxy Tab 10.1" title="Samsung Galaxy Tab 10.1" class="img-responsive" />					</a>
+											       
+												
+										</div>
+										<div class="button-group">
+                <button type="button" class="addtocart" data-toggle="tooltip"  title="Add to Cart" onclick="cart.add('49');">Add to Cart</button>
+                <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('49');"></button>
+                <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product" onclick="compare.add('49');"></button>
+              </div>
+										<div class="caption">
+											<h4><a href="http://pixelseshop.com/index.php?route=product/product&amp;product_id=49" title="Samsung Galaxy Tab 10.1">
+											Samsung Galaxy Tab 10.1										</a>
+										</h4>
+											
+																							<div class="price">
+												  												  $241.99												  												  												  <span class="price-tax">Ex Tax: $199.99</span>
+												  												</div>
+																																		<div class="rating">
+																																										<span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+																																																								<span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+																																																								<span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+																																																								<span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+																																																								<span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+																																							</div>
+																					</div>
+										
+									</div>
+								</div>
+							</div>
+																<div class="slider-item">
+								<div class="product-block product-thumb transition">
+									<div class="product-block-inner">
+										
+										<div class="image">
+											<a href="http://pixelseshop.com/index.php?route=product/product&amp;product_id=48">
+												<img src="http://pixelseshop.com/image/cache/catalog/demo/ipod_classic_1-330x330.jpg" alt="iPod Classic" title="iPod Classic" class="img-responsive" />					</a>
+											       
+												
+										</div>
+										<div class="button-group">
+                <button type="button" class="addtocart" data-toggle="tooltip"  title="Add to Cart" onclick="cart.add('48');">Add to Cart</button>
+                <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('48');"></button>
+                <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product" onclick="compare.add('48');"></button>
+              </div>
+										<div class="caption">
+											<h4><a href="http://pixelseshop.com/index.php?route=product/product&amp;product_id=48" title="iPod Classic">
+											iPod Classic										</a>
+										</h4>
+											
+																							<div class="price">
+												  												  $122.00												  												  												  <span class="price-tax">Ex Tax: $100.00</span>
+												  												</div>
+																																		<div class="rating">
+																																										<span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+																																																								<span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+																																																								<span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+																																																								<span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+																																																								<span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+																																							</div>
+																					</div>
+										
+									</div>
+								</div>
+							</div>
+																<div class="slider-item">
+								<div class="product-block product-thumb transition">
+									<div class="product-block-inner">
+										
+										<div class="image">
+											<a href="http://pixelseshop.com/index.php?route=product/product&amp;product_id=47">
+												<img src="http://pixelseshop.com/image/cache/catalog/demo/hp_1-330x330.jpg" alt="HP LP3065" title="HP LP3065" class="img-responsive" />					</a>
+											       
+												
+										</div>
+										<div class="button-group">
+                <button type="button" class="addtocart" data-toggle="tooltip"  title="Add to Cart" onclick="cart.add('47');">Add to Cart</button>
+                <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('47');"></button>
+                <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product" onclick="compare.add('47');"></button>
+              </div>
+										<div class="caption">
+											<h4><a href="http://pixelseshop.com/index.php?route=product/product&amp;product_id=47" title="HP LP3065">
+											HP LP3065										</a>
+										</h4>
+											
+																							<div class="price">
+												  												  $122.00												  												  												  <span class="price-tax">Ex Tax: $100.00</span>
+												  												</div>
+																																		<div class="rating">
+																																										<span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+																																																								<span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+																																																								<span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+																																																								<span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+																																																								<span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+																																							</div>
+																					</div>
+										
+									</div>
+								</div>
+							</div>
+																<div class="slider-item">
+								<div class="product-block product-thumb transition">
+									<div class="product-block-inner">
+										
+										<div class="image">
+											<a href="http://pixelseshop.com/index.php?route=product/product&amp;product_id=46">
+												<img src="http://pixelseshop.com/image/cache/catalog/demo/sony_vaio_1-330x330.jpg" alt="Sony VAIO" title="Sony VAIO" class="img-responsive" />					</a>
+											       
+												
+										</div>
+										<div class="button-group">
+                <button type="button" class="addtocart" data-toggle="tooltip"  title="Add to Cart" onclick="cart.add('46');">Add to Cart</button>
+                <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('46');"></button>
+                <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product" onclick="compare.add('46');"></button>
+              </div>
+										<div class="caption">
+											<h4><a href="http://pixelseshop.com/index.php?route=product/product&amp;product_id=46" title="Sony VAIO">
+											Sony VAIO										</a>
+										</h4>
+											
+																							<div class="price">
+												  												  $1,202.00												  												  												  <span class="price-tax">Ex Tax: $1,000.00</span>
+												  												</div>
+																																		<div class="rating">
+																																										<span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+																																																								<span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+																																																								<span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+																																																								<span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+																																																								<span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+																																							</div>
+																					</div>
+										
+									</div>
+								</div>
+							</div>
+																<div class="slider-item">
+								<div class="product-block product-thumb transition">
+									<div class="product-block-inner">
+										
+										<div class="image">
+											<a href="http://pixelseshop.com/index.php?route=product/product&amp;product_id=45">
+												<img src="http://pixelseshop.com/image/cache/catalog/demo/macbook_pro_1-330x330.jpg" alt="MacBook Pro" title="MacBook Pro" class="img-responsive" />					</a>
+											       
+												
+										</div>
+										<div class="button-group">
+                <button type="button" class="addtocart" data-toggle="tooltip"  title="Add to Cart" onclick="cart.add('45');">Add to Cart</button>
+                <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('45');"></button>
+                <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product" onclick="compare.add('45');"></button>
+              </div>
+										<div class="caption">
+											<h4><a href="http://pixelseshop.com/index.php?route=product/product&amp;product_id=45" title="MacBook Pro">
+											MacBook Pro										</a>
+										</h4>
+											
+																							<div class="price">
+												  												  $2,000.00												  												  												  <span class="price-tax">Ex Tax: $2,000.00</span>
+												  												</div>
+																																		<div class="rating">
+																																										<span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+																																																								<span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+																																																								<span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+																																																								<span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+																																																								<span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+																																							</div>
+																					</div>
+										
+									</div>
+								</div>
+							</div>
+																<div class="slider-item">
+								<div class="product-block product-thumb transition">
+									<div class="product-block-inner">
+										
+										<div class="image">
+											<a href="http://pixelseshop.com/index.php?route=product/product&amp;product_id=44">
+												<img src="http://pixelseshop.com/image/cache/catalog/demo/macbook_air_1-330x330.jpg" alt="MacBook Air" title="MacBook Air" class="img-responsive" />					</a>
+											       
+												
+										</div>
+										<div class="button-group">
+                <button type="button" class="addtocart" data-toggle="tooltip"  title="Add to Cart" onclick="cart.add('44');">Add to Cart</button>
+                <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('44');"></button>
+                <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product" onclick="compare.add('44');"></button>
+              </div>
+										<div class="caption">
+											<h4><a href="http://pixelseshop.com/index.php?route=product/product&amp;product_id=44" title="MacBook Air">
+											MacBook Air										</a>
+										</h4>
+											
+																							<div class="price">
+												  												  $1,202.00												  												  												  <span class="price-tax">Ex Tax: $1,000.00</span>
+												  												</div>
+																																		<div class="rating">
+																																										<span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+																																																								<span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+																																																								<span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+																																																								<span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+																																																								<span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+																																							</div>
+																					</div>
+										
+									</div>
+								</div>
+							</div>
+																<div class="slider-item">
+								<div class="product-block product-thumb transition">
+									<div class="product-block-inner">
+										
+										<div class="image">
+											<a href="http://pixelseshop.com/index.php?route=product/product&amp;product_id=43">
+												<img src="http://pixelseshop.com/image/cache/catalog/demo/macbook_1-330x330.jpg" alt="MacBook" title="MacBook" class="img-responsive" />					</a>
+											       
+												
+										</div>
+										<div class="button-group">
+                <button type="button" class="addtocart" data-toggle="tooltip"  title="Add to Cart" onclick="cart.add('43');">Add to Cart</button>
+                <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('43');"></button>
+                <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product" onclick="compare.add('43');"></button>
+              </div>
+										<div class="caption">
+											<h4><a href="http://pixelseshop.com/index.php?route=product/product&amp;product_id=43" title="MacBook">
+											MacBook										</a>
+										</h4>
+											
+																							<div class="price">
+												  												  $602.00												  												  												  <span class="price-tax">Ex Tax: $500.00</span>
+												  												</div>
+																																		<div class="rating">
+																																										<span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+																																																								<span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+																																																								<span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+																																																								<span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+																																																								<span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+																																							</div>
+																					</div>
+										
+									</div>
+								</div>
+							</div>
+																<div class="slider-item">
+								<div class="product-block product-thumb transition">
+									<div class="product-block-inner">
+										
+										<div class="image">
+											<a href="http://pixelseshop.com/index.php?route=product/product&amp;product_id=42">
+												<img src="http://pixelseshop.com/image/cache/catalog/demo/apple_cinema_30-330x330.jpg" alt="Apple Cinema 30\&quot;" title="Apple Cinema 30\&quot;" class="img-responsive" />					</a>
+																							<span class="saleicon sale">Sale</span>         
+												
+										</div>
+										<div class="button-group">
+                <button type="button" class="addtocart" data-toggle="tooltip"  title="Add to Cart" onclick="cart.add('42');">Add to Cart</button>
+                <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('42');"></button>
+                <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product" onclick="compare.add('42');"></button>
+              </div>
+										<div class="caption">
+											<h4><a href="http://pixelseshop.com/index.php?route=product/product&amp;product_id=42" title="Apple Cinema 30\&quot;">
+											Apple Cinema 30\&quot;										</a>
+										</h4>
+											
+																							<div class="price">
+												  												  <span class="price-old">$122.00</span><span class="price-new">$110.00</span>
+												  												  												  <span class="price-tax">Ex Tax: $90.00</span>
+												  												</div>
+																																		<div class="rating">
+																																										<span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+																																																								<span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+																																																								<span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+																																																								<span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+																																																								<span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+																																							</div>
+																					</div>
+										
+									</div>
+								</div>
+							</div>
+											</div>
+				</div>
+			 </div>
+			  <span class="tablatest_default_width" style="display:none; visibility:hidden"></span>
+ </div>
+
+</div>
+<script type="text/javascript">
+$('#tabs a').tabs();
+</script> 	
+<div id="banner3" class="single-banner">
+    <div class="item">
+        <a href="#"><img src="http://pixelseshop.com/image/cache/catalog/sub_banner-915x132-915x132.jpg" alt="Subbanner3" class="img-responsive" /></a>
+      </div>
+  </div>
+<script type="text/javascript"><!--
+$('.bannercarousel').owlCarousel({
+	items: 1,
+	autoPlay: 3000,
+	singleItem: true,
+	navigation: false,
+	pagination: true,
+	transitionStyle: 'fade'
+});
+--></script><div class="box featured">
+  <div class="box-heading">Featured</div>
+  <div class="box-content">
+				<div class="customNavigation">
+			<a class="prev">&nbsp;</a>
+			<a class="next">&nbsp;</a>
+		</div>	
+		
+	
+	<div class="box-product product-carousel" id="featured-carousel">
+    <div class="slider-item">
+    <div class="product-block product-thumb transition">
+	  <div class="product-block-inner">	  	
+		<div class="image">
+			<a href="http://pixelseshop.com/index.php?route=product/product&amp;product_id=42"><img src="http://pixelseshop.com/image/cache/catalog/demo/apple_cinema_30-330x330.jpg" alt="Apple Cinema 30\&quot;" title="Apple Cinema 30\&quot;" class="img-responsive" /></a>
+	        			<span class="saleicon sale">Sale</span>         
+			 	
+		</div>
+		<div class="button-group">
+				 <button type="button" class="addtocart" data-toggle="tooltip"  title="Add to Cart" onclick="cart.add('42');">Add to Cart</button>
+				<button class="wishlist" type="button" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('42');"></button>
+				<button class="compare" type="button" data-toggle="tooltip" title="Compare this Product" onclick="compare.add('42');"></button>
+			</div>
+      	<div class="product-details">
+			<div class="caption">
+						 <h4><a href="http://pixelseshop.com/index.php?route=product/product&amp;product_id=42" title="Apple Cinema 30\&quot;">
+					Apple Cinema 30\&quot;				</a>
+				</h4>
+								
+								<div class="price">
+				  				  <span class="price-old">$122.00</span><span class="price-new">$110.00</span> 
+				  				  				  <span class="price-tax">Ex Tax: $90.00</span>
+				  				</div>
+								
+								<div class="rating">
+				  				  				  <span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+				  				  				  				  <span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+				  				  				  				  <span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+				  				  				  				  <span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+				  				  				  				  <span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+				  				  				</div>
+							</div>		
+ 	    
+			
+	  	</div>
+  	</div>
+	</div>
+</div>
+  
+    <div class="slider-item">
+    <div class="product-block product-thumb transition">
+	  <div class="product-block-inner">	  	
+		<div class="image">
+			<a href="http://pixelseshop.com/index.php?route=product/product&amp;product_id=30"><img src="http://pixelseshop.com/image/cache/catalog/demo/canon_eos_5d_1-330x330.jpg" alt="Canon EOS 5D" title="Canon EOS 5D" class="img-responsive" /></a>
+	        			<span class="saleicon sale">Sale</span>         
+			 	
+		</div>
+		<div class="button-group">
+				 <button type="button" class="addtocart" data-toggle="tooltip"  title="Add to Cart" onclick="cart.add('30');">Add to Cart</button>
+				<button class="wishlist" type="button" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('30');"></button>
+				<button class="compare" type="button" data-toggle="tooltip" title="Compare this Product" onclick="compare.add('30');"></button>
+			</div>
+      	<div class="product-details">
+			<div class="caption">
+						 <h4><a href="http://pixelseshop.com/index.php?route=product/product&amp;product_id=30" title="Canon EOS 5D">
+					Canon EOS 5D				</a>
+				</h4>
+								
+								<div class="price">
+				  				  <span class="price-old">$5.00</span><span class="price-new">$5.00</span> 
+				  				  				  <span class="price-tax">Ex Tax: $5.00</span>
+				  				</div>
+								
+								<div class="rating">
+				  				  				  <span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+				  				  				  				  <span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+				  				  				  				  <span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+				  				  				  				  <span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+				  				  				  				  <span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+				  				  				</div>
+							</div>		
+ 	    
+			
+	  	</div>
+  	</div>
+	</div>
+</div>
+  
+    <div class="slider-item">
+    <div class="product-block product-thumb transition">
+	  <div class="product-block-inner">	  	
+		<div class="image">
+			<a href="http://pixelseshop.com/index.php?route=product/product&amp;product_id=47"><img src="http://pixelseshop.com/image/cache/catalog/demo/hp_1-330x330.jpg" alt="HP LP3065" title="HP LP3065" class="img-responsive" /></a>
+	               
+			 	
+		</div>
+		<div class="button-group">
+				 <button type="button" class="addtocart" data-toggle="tooltip"  title="Add to Cart" onclick="cart.add('47');">Add to Cart</button>
+				<button class="wishlist" type="button" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('47');"></button>
+				<button class="compare" type="button" data-toggle="tooltip" title="Compare this Product" onclick="compare.add('47');"></button>
+			</div>
+      	<div class="product-details">
+			<div class="caption">
+						 <h4><a href="http://pixelseshop.com/index.php?route=product/product&amp;product_id=47" title="HP LP3065">
+					HP LP3065				</a>
+				</h4>
+								
+								<div class="price">
+				  				  $122.00				  				  				  <span class="price-tax">Ex Tax: $100.00</span>
+				  				</div>
+								
+								<div class="rating">
+				  				  				  <span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+				  				  				  				  <span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+				  				  				  				  <span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+				  				  				  				  <span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+				  				  				  				  <span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+				  				  				</div>
+							</div>		
+ 	    
+			
+	  	</div>
+  	</div>
+	</div>
+</div>
+  
+    <div class="slider-item">
+    <div class="product-block product-thumb transition">
+	  <div class="product-block-inner">	  	
+		<div class="image">
+			<a href="http://pixelseshop.com/index.php?route=product/product&amp;product_id=28"><img src="http://pixelseshop.com/image/cache/catalog/demo/htc_touch_hd_1-330x330.jpg" alt="HTC Touch HD" title="HTC Touch HD" class="img-responsive" /></a>
+	               
+			 	
+		</div>
+		<div class="button-group">
+				 <button type="button" class="addtocart" data-toggle="tooltip"  title="Add to Cart" onclick="cart.add('28');">Add to Cart</button>
+				<button class="wishlist" type="button" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('28');"></button>
+				<button class="compare" type="button" data-toggle="tooltip" title="Compare this Product" onclick="compare.add('28');"></button>
+			</div>
+      	<div class="product-details">
+			<div class="caption">
+						 <h4><a href="http://pixelseshop.com/index.php?route=product/product&amp;product_id=28" title="HTC Touch HD">
+					HTC Touch HD				</a>
+				</h4>
+								
+								<div class="price">
+				  				  $122.00				  				  				  <span class="price-tax">Ex Tax: $100.00</span>
+				  				</div>
+								
+								<div class="rating">
+				  				  				  <span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+				  				  				  				  <span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+				  				  				  				  <span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+				  				  				  				  <span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+				  				  				  				  <span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+				  				  				</div>
+							</div>		
+ 	    
+			
+	  	</div>
+  	</div>
+	</div>
+</div>
+  
+    <div class="slider-item">
+    <div class="product-block product-thumb transition">
+	  <div class="product-block-inner">	  	
+		<div class="image">
+			<a href="http://pixelseshop.com/index.php?route=product/product&amp;product_id=41"><img src="http://pixelseshop.com/image/cache/catalog/demo/imac_1-330x330.jpg" alt="iMac" title="iMac" class="img-responsive" /></a>
+	               
+			 	
+		</div>
+		<div class="button-group">
+				 <button type="button" class="addtocart" data-toggle="tooltip"  title="Add to Cart" onclick="cart.add('41');">Add to Cart</button>
+				<button class="wishlist" type="button" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('41');"></button>
+				<button class="compare" type="button" data-toggle="tooltip" title="Compare this Product" onclick="compare.add('41');"></button>
+			</div>
+      	<div class="product-details">
+			<div class="caption">
+						 <h4><a href="http://pixelseshop.com/index.php?route=product/product&amp;product_id=41" title="iMac">
+					iMac				</a>
+				</h4>
+								
+								<div class="price">
+				  				  $122.00				  				  				  <span class="price-tax">Ex Tax: $100.00</span>
+				  				</div>
+								
+								<div class="rating">
+				  				  				  <span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+				  				  				  				  <span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+				  				  				  				  <span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+				  				  				  				  <span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+				  				  				  				  <span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+				  				  				</div>
+							</div>		
+ 	    
+			
+	  	</div>
+  	</div>
+	</div>
+</div>
+  
+  </div>
+  </div>
+</div>
+<span class="featured_default_width" style="display:none; visibility:hidden"></span>
+<div id="carousel-0" class="banners-slider-carousel">
+	<div class="customNavigation">
+		<a class="prev fa fa-angle-left">&nbsp;</a>
+		<a class="next fa fa-angle-right">&nbsp;</a>
+	</div>
+  <div class="product-carousel" id="module-0-carousel">
+        	<div class="slider-item">
+		<div class="product-block">
+		<div class="product-block-inner">
+			    <img src="http://pixelseshop.com/image/cache/catalog/brand-6-200x110.jpg" alt="Canon" />
+    		</div></div></div>
+        	<div class="slider-item">
+		<div class="product-block">
+		<div class="product-block-inner">
+			    <img src="http://pixelseshop.com/image/cache/catalog/brand-5-200x110.jpg" alt="Burger King" />
+    		</div></div></div>
+        	<div class="slider-item">
+		<div class="product-block">
+		<div class="product-block-inner">
+			    <img src="http://pixelseshop.com/image/cache/catalog/brand-4-200x110.jpg" alt="Coca Cola" />
+    		</div></div></div>
+        	<div class="slider-item">
+		<div class="product-block">
+		<div class="product-block-inner">
+			    <img src="http://pixelseshop.com/image/cache/catalog/brand-3-200x110.jpg" alt="Sony" />
+    		</div></div></div>
+        	<div class="slider-item">
+		<div class="product-block">
+		<div class="product-block-inner">
+			    <img src="http://pixelseshop.com/image/cache/catalog/brand-2-200x110.jpg" alt="RedBull" />
+    		</div></div></div>
+        	<div class="slider-item">
+		<div class="product-block">
+		<div class="product-block-inner">
+			    <img src="http://pixelseshop.com/image/cache/catalog/brand-1-200x110.jpg" alt="NFL" />
+    		</div></div></div>
+      </div>
+</div>
+<span class="module_default_width" style="display:none; visibility:hidden"></span>      <h1 class="page-title">Special Offers</h1>
+            <div class="category_filter">
+        <div class="col-md-4 btn-list-grid">
+          <div class="btn-group">
+            <button type="button" id="list-view" class="btn btn-default list" data-toggle="tooltip" title="List"><i class="fa fa-th-list"></i></button>
+            <button type="button" id="grid-view" class="btn btn-default grid" data-toggle="tooltip" title="Grid"><i class="fa fa-th"></i></button>
+          </div>
+        </div>
+		<div class="compare-total"><a href="http://pixelseshop.com/index.php?route=product/compare" id="compare-total">Product Compare (0)</a></div>
+		<div class="pagination-right">
+		 <div class="sort-by-wrapper">
+			<div class="col-md-2 text-right sort-by">
+			  <label class="control-label" for="input-sort">Sort By:</label>
+			</div>
+			<div class="col-md-3 text-right sort">
+			  <select id="input-sort" class="form-control" onchange="location = this.value;">
+												<option value="http://pixelseshop.com/index.php?route=product/special&amp;sort=p.sort_order&amp;order=ASC" selected="selected">Default</option>
+																<option value="http://pixelseshop.com/index.php?route=product/special&amp;sort=pd.name&amp;order=ASC">Name (A - Z)</option>
+																<option value="http://pixelseshop.com/index.php?route=product/special&amp;sort=pd.name&amp;order=DESC">Name (Z - A)</option>
+																<option value="http://pixelseshop.com/index.php?route=product/special&amp;sort=ps.price&amp;order=ASC">Price (Low &gt; High)</option>
+																<option value="http://pixelseshop.com/index.php?route=product/special&amp;sort=ps.price&amp;order=DESC">Price (High &gt; Low)</option>
+																<option value="http://pixelseshop.com/index.php?route=product/special&amp;sort=rating&amp;order=DESC">Rating (Highest)</option>
+																<option value="http://pixelseshop.com/index.php?route=product/special&amp;sort=rating&amp;order=ASC">Rating (Lowest)</option>
+																<option value="http://pixelseshop.com/index.php?route=product/special&amp;sort=p.model&amp;order=ASC">Model (A - Z)</option>
+																<option value="http://pixelseshop.com/index.php?route=product/special&amp;sort=p.model&amp;order=DESC">Model (Z - A)</option>
+											  </select>
+			</div>
+		 </div>
+		 <div class="show-wrapper">
+			<div class="col-md-1 text-right show">
+			  <label class="control-label" for="input-limit">Show:</label>
+			</div>
+			<div class="col-md-2 text-right limit">
+			  <select id="input-limit" class="form-control" onchange="location = this.value;">
+												<option value="http://pixelseshop.com/index.php?route=product/special&amp;limit=15" selected="selected">15</option>
+																<option value="http://pixelseshop.com/index.php?route=product/special&amp;limit=25">25</option>
+																<option value="http://pixelseshop.com/index.php?route=product/special&amp;limit=50">50</option>
+																<option value="http://pixelseshop.com/index.php?route=product/special&amp;limit=75">75</option>
+																<option value="http://pixelseshop.com/index.php?route=product/special&amp;limit=100">100</option>
+											  </select>
+			</div>
+		</div>
+      </div>
+	  </div>
+    
+      <div class="product-listgrid row">
+                <div class="product-layout product-list col-xs-12">
+          <div class="product-block product-thumb">
+		  	 <div class="product-block-inner">
+            <div class="image">
+				<a href="http://pixelseshop.com/index.php?route=product/product&amp;product_id=42"><img src="http://pixelseshop.com/image/cache/catalog/demo/apple_cinema_30-228x228.jpg" alt="Apple Cinema 30\&quot;" title="Apple Cinema 30\&quot;" class="img-responsive" /></a>
+								<div class="saleback">
+				<span class="saleicon sale">Sale</span>         
+				</div>
+							</div>
+            <div class="product-details">
+            
+			<div class="btn-list-grid">
+			 <div class="button-group">
+                <button type="button" class="addtocart" data-toggle="tooltip" title="Add to Cart"  onclick="cart.add('42', '2');">Add to Cart</button>
+                <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('42');"></button>
+                <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product" onclick="compare.add('42');"></button>
+              </div>
+			  </div> <!--End btn-list-grid-->
+              <div class="caption">
+                <h4><a href="http://pixelseshop.com/index.php?route=product/product&amp;product_id=42" title="Apple Cinema 30\&quot;">
+				Apple Cinema 30\&quot;			</a>
+			</h4>
+                <div class="desc">
+	The 30-inch Apple Cinema HD Display delivers an amazing 2560 x 1600 pixel resolution. Designed sp..</div>
+               
+                                <div class="price">
+                                    <span class="price-old">$122.00</span><span class="price-new">$110.00</span> 
+                                                      <span class="price-tax">Ex Tax: $90.00</span>
+                                  </div>
+                				                <div class="rating">
+                                                      <span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+                                                                        <span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+                                                                        <span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+                                                                        <span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+                                                                        <span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+                                                    </div>
+               				<div class="btn-wish-compare">
+					 <div class="button-group">
+						<button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('42');"></button>
+						<button type="button" class="compare" data-toggle="tooltip" title="Compare this Product" onclick="compare.add('42');"></button>
+					 </div>
+				</div>
+				
+				
+              </div>  <!--End caption-->
+             <div class="list-right">
+					 <div class="list-right-price">
+						  							<div class="price">
+							  							  <span class="price-old">$122.00</span><span class="price-new">$110.00</span>
+							  							  							  <span class="price-tax">Ex Tax: $90.00</span>
+							  							 </div>
+						 					</div>
+					<div class="list-buttoncart">  
+							 <div class="button-group">
+							 	   <button type="button" class="addtocart"  title="Add to Cart"  onclick="cart.add('42', '2');">Add to Cart</button>
+							 </div>
+					</div><!--End list-buttoncart-->
+				
+			 </div><!--End list-right-->
+
+            </div>
+			</div>
+			
+			
+			
+			 
+			
+			
+          </div>
+        </div>
+                <div class="product-layout product-list col-xs-12">
+          <div class="product-block product-thumb">
+		  	 <div class="product-block-inner">
+            <div class="image">
+				<a href="http://pixelseshop.com/index.php?route=product/product&amp;product_id=30"><img src="http://pixelseshop.com/image/cache/catalog/demo/canon_eos_5d_1-228x228.jpg" alt="Canon EOS 5D" title="Canon EOS 5D" class="img-responsive" /></a>
+								<div class="saleback">
+				<span class="saleicon sale">Sale</span>         
+				</div>
+							</div>
+            <div class="product-details">
+            
+			<div class="btn-list-grid">
+			 <div class="button-group">
+                <button type="button" class="addtocart" data-toggle="tooltip" title="Add to Cart"  onclick="cart.add('30', '1');">Add to Cart</button>
+                <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('30');"></button>
+                <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product" onclick="compare.add('30');"></button>
+              </div>
+			  </div> <!--End btn-list-grid-->
+              <div class="caption">
+                <h4><a href="http://pixelseshop.com/index.php?route=product/product&amp;product_id=30" title="Canon EOS 5D">
+				Canon EOS 5D			</a>
+			</h4>
+                <div class="desc">
+	Canon\\\\\\\'s press material for the EOS 5D states that it \\\\\\\'defines (a) new D-SLR categor..</div>
+               
+                                <div class="price">
+                                    <span class="price-old">$5.00</span><span class="price-new">$5.00</span> 
+                                                      <span class="price-tax">Ex Tax: $5.00</span>
+                                  </div>
+                				                <div class="rating">
+                                                      <span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+                                                                        <span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+                                                                        <span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+                                                                        <span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+                                                                        <span class="fa fa-stack"><i class="fa fa-star off fa-stack-2x"></i></span>
+                                                    </div>
+               				<div class="btn-wish-compare">
+					 <div class="button-group">
+						<button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('30');"></button>
+						<button type="button" class="compare" data-toggle="tooltip" title="Compare this Product" onclick="compare.add('30');"></button>
+					 </div>
+				</div>
+				
+				
+              </div>  <!--End caption-->
+             <div class="list-right">
+					 <div class="list-right-price">
+						  							<div class="price">
+							  							  <span class="price-old">$5.00</span><span class="price-new">$5.00</span>
+							  							  							  <span class="price-tax">Ex Tax: $5.00</span>
+							  							 </div>
+						 					</div>
+					<div class="list-buttoncart">  
+							 <div class="button-group">
+							 	   <button type="button" class="addtocart"  title="Add to Cart"  onclick="cart.add('30', '1');">Add to Cart</button>
+							 </div>
+					</div><!--End list-buttoncart-->
+				
+			 </div><!--End list-right-->
+
+            </div>
+			</div>
+			
+			
+			
+			 
+			
+			
+          </div>
+        </div>
+              </div>
+	  
+      <div class="pagination-wrapper">
+			<div class="col-sm-6 text-left page-link"></div>
+			<div class="col-sm-6 text-right page-result">Showing 1 to 2 of 2 (1 Pages)</div>
+	   </div>   
+            </div>
+    </div>
+</div>
+<footer>
+ 	<div class="content_footer_top">
+<div class=footer-top>
+<div class=home-about-me container=>
+<div class=social>
+<ul>
+
+<li class=twitter><a href=#>&nbsp;</a></li>
+
+<li class=rss><a href=#>&nbsp;</a></li>
+
+<li class=google-plus><a href=#>&nbsp;</a></li>
+
+<li class=facebook><a href=#>&nbsp;</a></li>
+
+</ul>
+
+</div>
+
+<div class=footer-top-right>
+<div class=tm-about-text>
+<div class=content-wrap>
+<h2 class=title1>Get 100% Satisfaction in our theme template</h2>
+
+<div class=tm-about-description>
+<p>Lorem ipsum, you need to be sure there isn\\\'t anything</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class=aboutme-read-more><a href=# title=Purchasenow>Purchase now</a></div>
+
+</div>
+
+</div>
+
+</div> </div>
+  	<div id="footer" >
+   	  <div class="container">
+			<div class="col-sm-3 column first">
+				<div class="content_footer_left">
+<div id=footer_cms_block>
+  <div class=tm-about-logo><a href=# target=_blank><img alt=footer_logo src=http://pixelseshop.com/image/catalog/pixelseshop_logo.png></a></div>
+
+
+  <div class=tm-about-description>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+
+
+  </div>
+
+
+</div> </div>
+			</div>
+			
+      					<div class="col-sm-3 column second">
+        		<h5>Information</h5>
+        			<ul class="list-unstyled">
+          				          					<li><a href="http://pixelseshop.com/index.php?route=information/information&amp;information_id=4">About Us</a></li>
+        				          					<li><a href="http://pixelseshop.com/index.php?route=information/information&amp;information_id=6">Delivery Information</a></li>
+        				          					<li><a href="http://pixelseshop.com/index.php?route=information/information&amp;information_id=3">Privacy Policy</a></li>
+        				          					<li><a href="http://pixelseshop.com/index.php?route=information/information&amp;information_id=5">Terms &amp; Conditions</a></li>
+        				  		 					<li><a href="http://pixelseshop.com/index.php?route=information/contact">Contact Us</a></li>
+							<li><a href="http://pixelseshop.com/index.php?route=information/sitemap">Site Map</a></li>
+        			</ul>
+     		 </div>
+    	  	    
+      		<div class="col-sm-3 column third">
+        		<h5>Extras</h5>
+        			<ul class="list-unstyled">
+					  <li><a href="http://pixelseshop.com/index.php?route=product/manufacturer">Brands</a></li>
+					  <li><a href="http://pixelseshop.com/index.php?route=account/voucher">Gift Vouchers</a></li>
+					  <li><a href="http://pixelseshop.com/index.php?route=affiliate/account">Affiliates</a></li>
+					  <li><a href="http://pixelseshop.com/index.php?route=product/special">Specials</a></li>
+					   <li><a href="http://pixelseshop.com/index.php?route=information/sitemap">Site Map</a></li>
+					   <li><a href="http://pixelseshop.com/index.php?route=account/account">My Account</a></li>
+        			</ul>
+      		</div>
+			
+	 	  <div class="col-sm-3 column fourth">
+			 <div class="content_footer_right">
+<div id=contact>
+<h5>Contact Us</h5>
+
+<ul>
+
+<li class=address><b>Megnor Computer Pvt. Ltd.</b></li>
+
+<li>507, Union trade center, Udhana Darwaja, Surat, 395001</li>
+
+<li class=ph-no><b>+91 8866888111</b></li>
+
+<li class=email><a href=#><b>support@templatemela.com</b></a></li>
+
+</ul>
+
+</div> </div>
+		  </div>
+    </div>
+</div>    
+</footer>
+
+<div class="copyright-container container">
+	<div class="footer-container">
+		<div id="bottomfooter">
+			<ul>
+				<li class="first"><a href="http://pixelseshop.com/index.php?route=affiliate/account">Affiliates</a></li>
+				
+				<li><a href="http://pixelseshop.com/index.php?route=account/voucher">Gift Vouchers</a></li>
+				
+				<li><a href="http://pixelseshop.com/index.php?route=product/manufacturer">Brands</a></li>   
+				
+				<li><a href="http://pixelseshop.com/index.php?route=account/return/add">Returns</a></li> 
+				
+				<li><a href="http://pixelseshop.com/index.php?route=information/sitemap">Site Map</a></li>
+				
+				<li class="last"><a href="http://pixelseshop.com/index.php?route=information/contact">Contact Us</a></li>
+			
+			</ul>
+
+		</div>
+
+		<div class="powered">Powered By <a href="http://www.opencart.com">OpenCart</a> PixelsEShop &copy; 2015</div> 	
+	</div> 
+	<div class="content_footer_bottom">
+<div class=footer-payment>
+<div class=payment-block>
+<ul>
+
+<li class=visa><a href=#>&nbsp;</a></li>
+
+<li class=paypal><a href=#>&nbsp;</a></li>
+
+<li class=discover><a href=#>&nbsp;</a></li>
+
+<li class=mastercard><a href=#>&nbsp;</a></li>
+
+</ul>
+
+</div>
+
+</div> </div>
+</div>
+
+
+<!--
+OpenCart is open source software and you are free to remove the powered by OpenCart if you want, but its generally accepted practise to make a small donation.
+Please donate via PayPal to donate@opencart.com
+//--> 
+
+<!-- Theme created by Welford Media for OpenCart 2.0 www.welfordmedia.co.uk -->
+<span class="grid_default_width" style="display: none; visibility: hidden;" ></span>
+</body></html>

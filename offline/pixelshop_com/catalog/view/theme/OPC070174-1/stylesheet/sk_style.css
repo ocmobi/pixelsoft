@@ -1,0 +1,52 @@
+#cart-total .fa-shopping-cart
+{
+	display:none !important;
+}
+
+.home-about-me {
+	width: 1170px;
+	margin: auto;
+}
+
+#search {
+  top: 45px !important;
+}
+
+#content {
+	min-height: inherit !important;
+}
+#banner1 {
+	width: 50% !important;
+	float: left !important;
+}
+#banner2 {
+	width: 50% !important;
+	float: right !important;
+}
+.button {
+	background: none repeat scroll 0 0 #2fb991;
+	border: medium none;
+	color: #ffffff;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: normal;
+	padding: 7px 12px 6px;
+	text-transform: uppercase;
+	width: auto;
+	height: auto;
+	border-radius: 0;
+	line-height: normal;
+}
+.button:hover {
+	color: #ffffff !important;
+}
+
+
+.sidebar-category .box-content {
+  min-height:inherit !important;
+}
+
+.powered a
+{
+	display:none !important;
+}
