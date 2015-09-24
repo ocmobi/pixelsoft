@@ -87,13 +87,13 @@
          //once load has completed, stop splash and show browser
          offline_browser.addEventListener('loadstop', function(event)
          {
-		offline_browser.executeScript({ code: " \
-	         	$(document).ready(function(){ \
-				$('a').each( function(){ \
-					$(this).attr('href', $(this).attr('href').replace(/^https?:\/\//,'')); \
-				}); \
-			}); \
-		"});
+		//offline_browser.executeScript({ code: " \
+	        // 	$(document).ready(function(){ \
+		//		$('a').each( function(){ \
+		//			$(this).attr('href', $(this).attr('href').replace(/^https?:\/\//,'')); \
+		//		}); \
+		//	}); \
+		//"});
 		
          	/*post process dom to change all links to relative offline*/
          	
