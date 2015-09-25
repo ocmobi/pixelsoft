@@ -44,20 +44,26 @@
 		if(offline && omode != offline)
 		{
 			loaded = false;
-			browser.close();
+			if(browser != null)
+			{
+				browser.close();
+			}
 			
  			browser = cordova.InAppBrowser.open('offline/pixelshop_com/index.html', '_blank', 'location=no,toolbar=no,hidden=yes,zoom=no,hardwareback=yes,EnableViewPortScale=yes');
 		}
 		else if(!offline && omode != offline)
 		{
 			loaded = false;
-			browser.close();
+			if(browser != null)
+			{
+				browser.close();
+			}
 			
  			browser = cordova.InAppBrowser.open('http://pixelseshop.com/', '_blank', 'location=no,toolbar=no,hidden=yes,zoom=no,hardwareback=yes,EnableViewPortScale=yes');
 		}
 		
 		/*attatch events to browser*/
-		if(omode != offline)
+		if(omode != offline && browser != null)
 		{
 			 browser.addEventListener('loadstart', function(event){
 			 	if( loaded == true )
