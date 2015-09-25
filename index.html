@@ -26,7 +26,7 @@
 	<script type="text/javascript">
 	var address = {city:"", state:"", zip:"", country:"", address:""};
 
-	var offline = true;
+	var offline = false;
 	var loaded  = false;
 	
 	var browser = null;
@@ -41,7 +41,8 @@
 		var omode = offline;
 
 		offline = (navigator.connection.type == Connection.NONE || navigator.connection.type == Connection.UNKNOWN) ? true : false;
-		if(offline && omode != offline)
+		/*offline and (state change or never loaded)*/
+		if(offline && (omode != offline || loaded==false))
 		{
 			loaded = false;
 			if(browser != null)
@@ -51,7 +52,8 @@
 			
  			browser = cordova.InAppBrowser.open('offline/pixelshop_com/index.html', '_blank', 'location=no,toolbar=no,hidden=yes,zoom=no,hardwareback=yes,EnableViewPortScale=yes');
 		}
-		else if(!offline && omode != offline)
+		/*not offline and (state change or never loaded)*/
+		else if(!offline && (omode != offline || loaded=false))
 		{
 			loaded = false;
 			if(browser != null)
@@ -62,8 +64,8 @@
  			browser = cordova.InAppBrowser.open('http://pixelseshop.com/', '_blank', 'location=no,toolbar=no,hidden=yes,zoom=no,hardwareback=yes,EnableViewPortScale=yes');
 		}
 		
-		/*attatch events to browser*/
-		if(omode != offline && browser != null)
+		/*attatch events to browser on state change or initial load*/
+		if( (omode != offline || loaded=false) && browser != null)
 		{
 			 browser.addEventListener('loadstart', function(event){
 			 	if( loaded == true )
@@ -89,12 +91,15 @@
 				" });
 				
 				/*fix urls use relative path for offline mode*/
-				//browser.executeScript({ code: " \
-	        		// 	$(document).ready(function(){ \
-				//		$('a').each( function(){ \
-			//			$(this).attr('href', $(this).attr('href').replace(/^https?:\/\//,'')); \
-			//		}); \
-			//	}); \
+				if(offline)
+				{
+					browser.executeScript({ code: " \
+		        		 	$(document).ready(function(){ \
+							$('a').each( function(){ \
+							$(this).attr('href', $(this).attr('href').replace(/^https?:\/\//,'')); \
+						});
+					});
+				}
 		
 				if( loaded == false )
 				{
