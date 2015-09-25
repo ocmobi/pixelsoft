@@ -40,7 +40,7 @@
 	{
 		var omode = offline;
 
-		offline = (navigator.connection.type == Connection.NONE || navigator.connection.type == Connection.UNKNOWN) ? true : false;
+		offline = true;//(navigator.connection.type == Connection.NONE || navigator.connection.type == Connection.UNKNOWN) ? true : false;
 		/*offline and (state change or never loaded)*/
 		if(offline && (omode != offline || loaded==false))
 		{
