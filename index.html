@@ -40,7 +40,7 @@
 	{
 		var omode = offline;
 
-		offline = true;//(navigator.connection.type == Connection.NONE || navigator.connection.type == Connection.UNKNOWN) ? true : false;
+		offline = (navigator.connection.type == Connection.NONE || navigator.connection.type == Connection.UNKNOWN) ? true : false;
 		/*offline and (state change or never loaded)*/
 		if(offline && (omode != offline || loaded==false))
 		{
@@ -65,7 +65,7 @@
 		}
 		
 		/*attatch events to browser on state change or initial load*/
-		if( (omode != offline || loaded=false) && browser != null)
+		if( (omode != offline || loaded==false) && browser != null)
 		{
 			 browser.addEventListener('loadstart', function(event){
 			 	if( loaded == true )
