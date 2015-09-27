@@ -31,7 +31,7 @@
 	
 	var browser = null;
 
-	//var push = null;
+	var pushNotification = null;
 
 	//on device ready begin app
 	document.addEventListener("deviceready", onDeviceReady, false);
@@ -124,11 +124,8 @@
 		/*begin async geolocation lookup*/
 		navigator.geolocation.getCurrentPosition(onSuccessGeolocation, onErrorGeolocation);
 	
-	 	/*push notification object*/
-	 	//push = window.plugins.pushNotification;
-
     	 	/*push notification init*/
-    	 	//initPush();
+    	 	initPush();
         }
 
 	// onSuccess Geolocation
@@ -182,67 +179,39 @@
 		);
 	}
 
-		/*
-		function initPush()
-		{
-			document.addEventListener('push-notification', function(event){
-				  var notification = event.notification;
-				  var title = notification.title;
-				  var userData = notification.userdata;
-
-				  push.setApplicationIconBadgeNumber(0);
-
-				  navigator.notification.alert(notification.aps.alert);
-
-			       if(typeof(userData) != "undefined")
-			       {
-				 	  showStatusMsg('user data: ' + JSON.stringify(userData));
-			       }
-			   });
-			}
-
-			if (device.platform == 'android' || device.platform == 'Android')
-			{
-				push.registerDevice({ alert:true,
-												  badge:true,
-												  sound:true,
-												  projectid: "...your GCM project number...",
-												  appid : "CDAPP-00000"
-												},
-												function(status)
-												{
-													var pushToken = status;
-													showStatusMsg('push token: ' + JSON.stringify(pushToken));
-												},
-												function(status)
-												{
-													showStatusMsg(JSON.stringify(['failed to register', status]));
-												});
-
-
-			}
-			else
-			{
-				push.registerDevice({ alert:true,
-												  badge:true,
-												  sound:true,
-												  appname: "...your app name...",
-												  pw_appid : "CDAPP-00000"
-												},
-												function(status)
-												{
-													var pushToken = status;
-													showStatusMsg('push token: ' + JSON.stringify(pushToken));
-												},
-												function(status)
-												{
-													showStatusMsg(JSON.stringify(['failed to register', status]));
-												});
-
-			}
-
-		}
-		*/
+	function initPush() {
+	    var pushNotification = cordova.require("com.pushwoosh.plugins.pushwoosh.PushNotification");
+	 
+	    //set push notification callback before we initialize the plugin
+	    document.addEventListener('push-notification', function(event) {
+	                                //get the notification payload
+	                                var notification = event.notification;
+	 
+	                                //display alert to the user for example
+	                                alert(notification.aps.alert);
+	                               
+	                                //clear the app badge
+	                                pushNotification.setApplicationIconBadgeNumber(0);
+	                            });
+	 
+	    //initialize the plugin
+	    pushNotification.onDeviceReady({pw_appid:"PUSHWOOSH_APP_ID"});
+	     
+	    //register for pushes
+	    pushNotification.registerDevice(
+	        function(status) {
+	            var deviceToken = status['deviceToken'];
+	            console.warn('registerDevice: ' + deviceToken);
+	        },
+	        function(status) {
+	            console.warn('failed to register : ' + JSON.stringify(status));
+	            alert(JSON.stringify(['failed to register ', status]));
+	        }
+	    );
+	     
+	    //reset badges on app start
+	    pushNotification.setApplicationIconBadgeNumber(0);
+	}
         </script>
     </body>
 </html>
