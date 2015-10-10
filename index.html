@@ -39,36 +39,36 @@
 	
 	function checkNetwork()
 	{
-		var omode = offline;
+		//var omode = offline;
 
-		offline = (navigator.connection.type == Connection.NONE || navigator.connection.type == Connection.UNKNOWN) ? true : false;
+		//offline = (navigator.connection.type == Connection.NONE || navigator.connection.type == Connection.UNKNOWN) ? true : false;
 		
 		/*offline and (state change or never loaded)*/
-		if(offline && (omode != offline || loaded==false))
-		{
-			loaded = false;
-			if(browser != null)
-			{
-				browser.close();
-			}
-			
- 			browser = cordova.InAppBrowser.open('offline/pixelshop_com/index.html', '_blank', 'location=no,toolbar=no,hidden=yes,zoom=no,hardwareback=yes,EnableViewPortScale=yes');
-		}
+		//if(offline && (omode != offline || loaded==false))
+		//{
+		//	loaded = false;
+		//	if(browser != null)
+		//	{
+		//		browser.close();
+		//	}
+		//	
+ 		//	browser = cordova.InAppBrowser.open('offline/pixelshop_com/index.html', '_blank', 'location=no,toolbar=no,hidden=yes,zoom=no,hardwareback=yes,EnableViewPortScale=yes');
+		//}
 		/*not offline and (state change or never loaded)*/
-		else if(!offline && (omode != offline || loaded=false))
-		{
-			loaded = false;
-			if(browser != null)
-			{
-				browser.close();
-			}
-			
+		//else if(!offline && (omode != offline || loaded=false))
+		//{
+		//	loaded = false;
+		//	if(browser != null)
+		//	{
+		//		browser.close();
+		//	}
+		//	
  			browser = cordova.InAppBrowser.open('http://pixelseshop.com/', '_blank', 'location=no,toolbar=no,hidden=yes,zoom=no,hardwareback=yes,EnableViewPortScale=yes');
-		}
+		//}
 		
 		/*attatch events to browser on state change or initial load*/
-		if( (omode != offline || loaded==false) && browser != null)
-		{
+		//if( (omode != offline || loaded==false) && browser != null)
+		//{
 			 browser.addEventListener('loadstart', function(event){
 			 	if( loaded == true )
 				{
@@ -112,7 +112,7 @@
 		         browser.addEventListener('exit', function(event) {
 		             	navigator.app.exitApp();
 		         });			
-		}
+		//}
 	}
 
 	function onDeviceReady()
