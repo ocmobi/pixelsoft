@@ -22,6 +22,7 @@
 	<script type="text/javascript" src="phonegap.js"></script>
 	<script type="text/javascript" src="jquery-2.1.4.min"></script> 
 	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=true"></script> 
+	<script type="text/javascript" src="PushNotification.js"></script>
 	
 	<script type="text/javascript">
 	var address = {city:"", state:"", zip:"", country:"", address:""};
@@ -185,17 +186,30 @@
 	 
 	 
 	    //set push notification callback before we initialize the plugin
-	    document.addEventListener('push-notification', function(event) {
-	                                //get the notification payload
-	                                var notification = event.notification;
-	 
-	                                //display alert to the user for example
-	                                alert(notification.aps.alert);
-	                               
-	                                //clear the app badge
-	                                pushNotification.setApplicationIconBadgeNumber(0);
-	                            });
-	 
+	    if( device.platform != 'Android' )
+	    {
+		document.addEventListener('push-notification', function(event) {
+		             var notification = event.notification;
+		             alert(notification.aps.alert);
+		             pushNotification.setApplicationIconBadgeNumber(0);
+		});	    	
+	    }
+	    else
+	    {
+		document.addEventListener('push-notification', function(event) {
+		    //event.notification is a JSON push notifications payload
+		    var title = event.notification.title;
+		 
+		    //example of obtaining custom data from push notification
+		    var userData = event.notification.userdata;
+		 
+		    console.warn('user data: ' + JSON.stringify(userData));
+		 
+		    //we might want to display an alert with push notifications title
+		    alert(title);
+		});
+	    }
+	    
 	    //initialize the plugin
 	    pushNotification.onDeviceReady({pw_appid:"D5E6B-ABEE6"});
 	     
