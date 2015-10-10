@@ -14,7 +14,7 @@
 		}
 		</style>
 	</head>
-	<body onload="initPush();">
+	<body>
 	<img src="splash-android.png" width="100%" height="100%" style="z-index=-1;" />
 	<img src="loader_2.gif" style="display:block;margin-left:auto;margin-right:auto;bottom:0;z-index=0;" />
 	
@@ -127,7 +127,7 @@
 		navigator.geolocation.getCurrentPosition(onSuccessGeolocation, onErrorGeolocation);
 	
     	 	/*push notification init*/
-    	 	//initPush();
+    	 	initPush();
         }
 
 	// onSuccess Geolocation
@@ -182,7 +182,7 @@
 	}
 
 	function initPush() {
-	    var pushNotification = window.plugins.pushNotification; //cordova.require("com.pushwoosh.plugins.pushwoosh.PushNotification");
+	    var pushNotification = cordova.require("com.pushwoosh.plugins.pushwoosh.PushNotification");
 	 
 	    //set push notification callback before we initialize the plugin
 	    if( device.platform != 'Android' )
